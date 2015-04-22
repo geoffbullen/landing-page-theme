@@ -19,6 +19,7 @@ h5,
 h6 {
     font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
+
 }
 
 .lead {
@@ -30,8 +31,9 @@ h6 {
     padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 50px;
     text-align: center;
-    color: #f8f8f8;
-    background: url(../img/orange.png) no-repeat center center;
+    color: orange;
+
+    background: url(../img/sketch.png) no-repeat center center;
     background-size: cover;
 }
 
@@ -43,8 +45,31 @@ h6 {
 
 .intro-message > h1 {
     margin: 0;
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
     font-size: 5em;
+    text-shadow: 1px 1px 0 grey,
+    -1px 1px 0 grey,
+    1px -1px 0 grey,
+    -1px -1px 0 grey,
+    0px 1px 0 grey,
+    0px -1px 0 grey,
+    -1px 0px 0 grey,
+    1px 0px 0 grey,
+    2px 2px 0 grey,
+    -2px 2px 0 grey,
+    2px -2px 0 grey,
+    -2px -2px 0 grey,
+    0px 2px 0 grey,
+    0px -2px 0 grey,
+    -2px 0px 0 grey,
+    2px 0px 0 grey,
+    1px 2px 0 grey,
+    -1px 2px 0 grey,
+    1px -2px 0 grey,
+    -1px -2px 0 grey,
+    2px 1px 0 grey,
+    -2px 1px 0 grey,
+    2px -1px 0 grey,
+    -2px -1px 0 grey;
 }
 
 .intro-divider {
@@ -54,7 +79,31 @@ h6 {
 }
 
 .intro-message > h3 {
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    color: grey;
+    text-shadow: 1px 1px 0 white,
+    -1px 1px 0 white,
+    1px -1px 0 white,
+    -1px -1px 0 white,
+    0px 1px 0 white,
+    0px -1px 0 white,
+    -1px 0px 0 white,
+    1px 0px 0 white,
+    2px 2px 0 white,
+    -2px 2px 0 white,
+    2px -2px 0 white,
+    -2px -2px 0 white,
+    0px 2px 0 white,
+    0px -2px 0 white,
+    -2px 0px 0 white,
+    2px 0px 0 white,
+    1px 2px 0 white,
+    -1px 2px 0 white,
+    1px -2px 0 white,
+    -1px -2px 0 white,
+    2px 1px 0 white,
+    -2px 1px 0 white,
+    2px -1px 0 white,
+    -2px -1px 0 white;
 }
 
 @media(max-width:767px) {
@@ -112,7 +161,7 @@ h6 {
 .banner {
     padding: 100px 0;
     color: #f8f8f8;
-    background: url(../img/grey.png) no-repeat center center;
+    background: url(../img/orange.png) no-repeat center center;
     background-size: cover;
 }
 
