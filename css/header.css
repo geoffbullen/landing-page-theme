@@ -1,0 +1,11 @@
+.navbar-default{
+    background: orange;
+    border-color:orange;
+}
+.navbar .nav > li > a {
+    color:  blue;
+}
+
+body > nav > div > div.navbar-header.page-scroll > a{
+    color: blue;
+}
