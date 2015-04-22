@@ -5,23 +5,17 @@
             <div class="navmenu navmenu-default navmenu-fixed-left">
                 <ul class="sidebar-nav nav navmenu-nav">
                     {% for post in site.posts %}
-                    {% if post.category == 'Documentation'%}
-                    <li>
-                        <a href="{{ post.url }}">{{ post.title }}</a>
-                    </li>
-                    {% endif %}
+                        {% if post.category == 'Documentation'%}
+                        <li>
+                            <a href="{{ post.url }}">{{ post.title }}</a>
+                        </li>
+                        {% endif %}
                     {% endfor %}
                 </ul>
             </div>
         </div>   <!-- end column -->
         <div class="col-md-10">
-
-
              {{content}}
-
-
-
-
         </div>
     </div>
 </div>
