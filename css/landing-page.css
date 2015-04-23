@@ -17,8 +17,9 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 700;
+
 }
 
 .lead {
@@ -30,34 +31,37 @@ h6 {
     padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 50px;
     text-align: center;
-    color: #f8f8f8;
-    background: url(../img/orange.png) no-repeat center center;
+    color: orange;
+
+    background: url(../img/sketch.png) no-repeat center center;
     background-size: cover;
 }
 
 .intro-message {
+
     position: relative;
     padding-top: 20%;
     padding-bottom: 20%;
 }
 
 .intro-message > h1 {
+    top: 10px;
     margin: 0;
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
     font-size: 5em;
+    text-shadow: 1px 1px 0 grey, -1px 1px 0 grey, 1px -1px 0 grey, -1px -1px 0 grey, 0px 1px 0 grey, 0px -1px 0 grey, -1px 0px 0 grey, 1px 0px 0 grey, 2px 2px 0 grey, -2px 2px 0 grey, 2px -2px 0 grey, -2px -2px 0 grey, 0px 2px 0 grey, 0px -2px 0 grey, -2px 0px 0 grey, 2px 0px 0 grey, 1px 2px 0 grey, -1px 2px 0 grey, 1px -2px 0 grey, -1px -2px 0 grey, 2px 1px 0 grey, -2px 1px 0 grey, 2px -1px 0 grey, -2px -1px 0 grey;
 }
 
 .intro-divider {
-    width: 400px;
-    border-top: 1px solid #f8f8f8;
-    border-bottom: 1px solid rgba(0,0,0,0.2);
+    border-top: 0px;
+    width: 0px;
 }
 
 .intro-message > h3 {
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    color: grey;
+    text-shadow: 1px 1px 0 white, -1px 1px 0 white, 1px -1px 0 white, -1px -1px 0 white, 0px 1px 0 white, 0px -1px 0 white, -1px 0px 0 white, 1px 0px 0 white, 2px 2px 0 white, -2px 2px 0 white, 2px -2px 0 white, -2px -2px 0 white, 0px 2px 0 white, 0px -2px 0 white, -2px 0px 0 white, 2px 0px 0 white, 1px 2px 0 white, -1px 2px 0 white, 1px -2px 0 white, -1px -2px 0 white, 2px 1px 0 white, -2px 1px 0 white, 2px -1px 0 white, -2px -1px 0 white;
 }
 
-@media(max-width:767px) {
+@media (max-width:767px) {
     .intro-message {
         padding-bottom: 15%;
     }
@@ -77,7 +81,8 @@ h6 {
     }
 
     .intro-divider {
-        width: 100%;
+        border-top: 0px;
+        width: 0px;
     }
 }
 
@@ -112,13 +117,13 @@ h6 {
 .banner {
     padding: 100px 0;
     color: #f8f8f8;
-    background: url(../img/grey.png) no-repeat center center;
+    background: url(../img/orange.png) no-repeat center center;
     background-size: cover;
 }
 
 .banner h2 {
     margin: 0;
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
     font-size: 3em;
 }
 
@@ -131,17 +136,17 @@ h6 {
     margin-top: 0;
 }
 
-@media(max-width:1199px) {
+@media (max-width:1199px) {
     ul.banner-social-buttons {
         float: left;
         margin-top: 15px;
     }
 }
 
-@media(max-width:767px) {
+@media (max-width:767px) {
     .banner h2 {
         margin: 0;
-        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
         font-size: 3em;
     }
 

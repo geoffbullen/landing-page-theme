@@ -1,0 +1,4 @@
+.section-header {
+    padding-top: 80px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 80px;
+}

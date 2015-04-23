@@ -3,10 +3,10 @@
 # ----------------------- #
 
 url: http://wallsync.net
-title: WallSync
+title: WallSync - bringing your physical and virtual agile boards together
 email: info@wallsync.net
 author: Geoff Bullen
-description: > # WallSync - use your phone to keep in sync your physical wall and Agile tools such as JIRA. See live data as you look at your physical wall.  Augmented reality comes to Agile
+description: WallSync - use your phone to keep in sync your physical wall and Agile tools such as JIRA. See live data as you look at your physical wall.  Augmented reality comes to Agile
 
 # ----------------------- #
 #    Jekyll & Plugins     #
@@ -22,4 +22,4 @@ permalink: pretty
 
 social:
   - title: twitter
-    url: https://twitter.com/startflowing
+    url: https://twitter.com/intent/tweet?hashtags=wallsync&screen_name=startflowing
