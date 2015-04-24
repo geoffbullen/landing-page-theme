@@ -32,7 +32,6 @@ h6 {
     padding-bottom: 50px;
     text-align: center;
     color: orange;
-
     background: url(../img/sketch.png) no-repeat center center;
     background-size: cover;
 }
@@ -41,7 +40,7 @@ h6 {
 
     position: relative;
     padding-top: 20%;
-    padding-bottom: 20%;
+    padding-bottom: 40%;
 }
 
 .intro-message > h1 {

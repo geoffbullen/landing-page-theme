@@ -1,11 +1,7 @@
-.navbar-default{
-    background: orange;
-    border-color:orange;
-}
 .navbar .nav > li > a {
-    color:  blue;
+    color:  #e38d00;
 }
 
 body > nav > div > div.navbar-header.page-scroll > a{
-    color: blue;
+    color: #e38d00;
 }
