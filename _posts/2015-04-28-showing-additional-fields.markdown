@@ -26,5 +26,9 @@ This plugin is installed by default, but disabled.
 
  ![Additional Fields Display](/img/documentation/additional_fields/enable_toolkit_plugin.png)
 
+Make the fields available to your board
+--------------------
+
+ ![Board Configuration, additional fields](/img/documentation/additional_fields/board_config_additional_fields.png)
 
 
