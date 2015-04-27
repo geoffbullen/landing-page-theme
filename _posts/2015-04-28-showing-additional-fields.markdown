@@ -18,7 +18,7 @@ In order to show when a card last changed (A) and the comment count (B), you wil
 Enable the JIRA toolkit plugin
 --------------------
 
-This plugin is installed by default, but disabled.
+This plugin is installed by default, but disabled.   For more information see the [Atlassian Doco](https://ecosystem.atlassian.net/wiki/display/JTOOL/JIRA%20Toolkit%20Plugin)
 
  - From JIRA Administration, "Manage add-ons"
  - Filter by "tolkit"; and
