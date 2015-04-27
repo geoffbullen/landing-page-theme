@@ -8,16 +8,6 @@ description: |
 
 Getting started with WallSync for JIRA
 ====================
-<br />
-
-Install the plugin
---------------------
-
-WallSync for JIRA is made up of two components, the JIRA plugin and the phone or tablet app.
-
-<a href="https://marketplace.atlassian.com/plugins/wallsync-for-jira" target="_blank"><img src="/img/documentation/getting_started/marketplace_available_dark_180x80.png" /></a><a href="https://play.google.com/store/apps/details?id=com.Zealous.WallSync" target="_blank"><img alt="Get it on Google Play" src="https://developer.android.com/images/brand/en_generic_rgb_wo_60.png"/></a>
-
-
 
 Generate the cards for your board
 --------------------
