@@ -1,13 +1,14 @@
 ---
 layout: documentation
 category: Documentation
-title: Getting Started with WallSync for JIRA
+title: Getting Started with WallSync
 menu_title: Getting Started
 description: |
 ---
 
 Getting started with WallSync for JIRA
 ====================
+<br />
 
 Install the plugin
 --------------------
@@ -27,8 +28,6 @@ Generate the cards for your board
  ![WallSync JIRA link](/img/documentation/getting_started/wallsync_link.png)
 
  - Select the board you are working with
-
- ![Select your board](/img/documentation/getting_started/select_board.png)
 
  ![Selected  board](/img/documentation/getting_started/selected_board.png)
 
