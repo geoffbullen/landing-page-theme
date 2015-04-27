@@ -14,4 +14,4 @@ Sync your wall with JIRA
  - Scan the column board
  - Sync
 
- Repeat for each column on your wall
+ Repeat for each column on your wall until everything is green
