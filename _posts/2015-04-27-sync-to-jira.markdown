@@ -1,7 +1,7 @@
 ---
 layout: documentation
 category: Documentation
-title: Sync JIRA with your board
+title: Get JIRA in sync with wall
 menu_title: Sync to JIRA
 description: |
 ---
