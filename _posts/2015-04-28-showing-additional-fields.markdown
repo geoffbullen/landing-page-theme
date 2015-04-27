@@ -14,3 +14,17 @@ In order to show when a card last changed (A) and the comment count (B), you wil
 
  ![Additional Fields Display](/img/documentation/additional_fields/card_overlay.png)
 
+
+Enable the JIRA toolkit plugin
+--------------------
+
+This plugin is installed by default, but disabled.
+
+ - From JIRA Administration, "Manage add-ons"
+ - Filter by "tolkit"; and
+ - Press the "Enable" button
+
+ ![Additional Fields Display](/img/documentation/additional_fields/enable_toolkit_plugin.png)
+
+
+
