@@ -1,10 +1,9 @@
 ---
 layout: default
-img: sync.jpg
+img: world.jpg
 category: Features
-title: Keep in sync
+title: Distributed team? <br/> No problem
 description: |
 ---
-  Easily manage a physical card wall. You can see differences between the cards on the wall
-  and JIRA and make them match with the click of a button. Get your task wall up to date in
-  seconds before your stand up.
+It's now simple to keep physical task walls in different locations in sync. Just sync the
+boards before and after your stand up. A painless way to help teams collaborate across locations

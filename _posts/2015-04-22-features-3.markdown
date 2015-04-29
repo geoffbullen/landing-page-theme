@@ -1,9 +1,9 @@
 ---
 layout: default
-img: world.jpg
+img: live_data.jpg
 category: Features
-title: Distributed team? <br/> No problem
+title: Live information,<br> physical cards
 description: |
 ---
-It's now simple to keep physical task walls in different locations in sync. Just sync the
-boards before and after your stand up. A painless way to help teams collaborate across locations
+  Take the right actions at your stand up. See which cards aren't moving (when it was last updated),
+  who the assignee is and which have the most discussion (number of comments). All this instantly available.
