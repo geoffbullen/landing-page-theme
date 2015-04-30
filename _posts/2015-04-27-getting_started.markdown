@@ -9,6 +9,13 @@ description: |
 Getting started with WallSync for JIRA
 ====================
 
+<div class="alert alert-warning" role="alert">
+
+<strong>Having problems?</strong> -- Have a look at the <a href="{% post_url 2015-04-30-troubleshooting %}">troubleshooting guide</a>
+
+</div>
+
+
 Generate the cards for your board
 --------------------
 

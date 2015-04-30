@@ -17,7 +17,19 @@
             </div>
         </div>   <!-- end column -->
         <div class="col-md-9">
-             {{content}}
+            {{% if content %}}
+
+                {{content}}
+
+            {{% else %}}
+
+            <h3>Quick look</h3>
+
+            <p>To get a flavour for how it should work, see this 1 minute video:</p>
+
+            <iframe width="640" height="390" src="https://www.youtube.com/embed/5rQpSAeGxjI" frameborder="0" allowfullscreen></iframe>
+
+            {{% endif %}}
         </div>
     </div>
 </div>

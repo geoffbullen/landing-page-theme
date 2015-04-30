@@ -11,7 +11,7 @@ Having problems?  Read this first
 Watch the video
 ----------
 
-To get a flavour for how it should work, see this short 1 minute video:
+To get a flavour for how it should work, see this 1 minute video:
 
 <iframe width="640" height="390" src="https://www.youtube.com/embed/5rQpSAeGxjI" frameborder="0" allowfullscreen></iframe>
 
@@ -26,8 +26,6 @@ WallSync for JIRA Agile requires the following:
  4. The phone or tablet app installed with your JIRA settings entered correctly
 
 See the [installation instructions]({% post_url 2015-04-24-installation %}) for some more information.
-
-
 
 
 Raising a support request
