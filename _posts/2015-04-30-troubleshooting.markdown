@@ -8,6 +8,11 @@ description: |
 Having problems?  Read this first
 ====================
 
+Watch the video
+----------
+
+<iframe width="640" height="390" src="https://www.youtube.com/embed/5rQpSAeGxjI" frameborder="0" allowfullscreen></iframe>
+
 Dependencies
 ------------
 
@@ -30,5 +35,7 @@ To allow our support team to resolve your issue quickly, we'd appreciate the fol
 
  1. A screen shot of the screen on your mobile or web browser
  2. The output of the javascript console.  For example, here is how to [get from chrome]({% post_url 2015-04-30-chrome-console %})
+ 3. The url of your JIRA cloud instance
+
 
 
