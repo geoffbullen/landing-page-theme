@@ -8,6 +8,14 @@ description: |
 Installing WallSync for JIRA
 ====================
 
+<div class="alert alert-warning" role="alert">
+
+<strong>Pre-requisites</strong> -- WallSync requires you to have the <a href="https://www.atlassian.com/software/jira/agile">JIRA Agile plugin</a> installed and issues available
+in an active sprint for the board that you would like to sync.
+
+</div>
+
+
 WallSync for JIRA is made up of two components, the JIRA plugin and the phone or tablet app
 
 Install the plugin
