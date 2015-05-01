@@ -196,3 +196,16 @@ p.copyright {
     color:orange;
     font-size: 1.2em;
 }
+
+#gif{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.no-more > ul,.much-more > ul{
+    text-align:justify;
+}
+
+.no-more > ul > li,.much-more > ul > li{
+    margin: 0 0 10px 0;
+}
