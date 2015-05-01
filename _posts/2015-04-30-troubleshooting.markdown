@@ -13,7 +13,7 @@ Watch the video
 
 To get a flavour for how it should work, see this 1 minute video:
 
-<iframe width="640" height="390" src="https://www.youtube.com/embed/5rQpSAeGxjI?rel=0" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="390" src="https://www.youtube.com/embed/WBNiaDbVRyk?rel=0" frameborder="0" allowfullscreen></iframe>
 
 Dependencies
 ------------
