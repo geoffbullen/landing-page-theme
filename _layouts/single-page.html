@@ -4,9 +4,14 @@
 
 <body>
 {% include header.html %}
-<div class="page_content">
-    {{content}}
+<div class="container">
+    <div class="page_content">
+        <div class="col-md-8 no-more">
+            {{content}}
+        </div>
+    </div>
 </div>
+{% include footer.html %}
 
 {% include js.html %}
 </body>
