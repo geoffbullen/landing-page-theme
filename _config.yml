@@ -23,8 +23,3 @@ permalink: pretty
 social:
   - title: twitter
     url: https://twitter.com/intent/tweet?hashtags=wallsync&screen_name=startflowing
-
-analytics :
-  provider : google
-  google :
-    tracking_id : 'UA-43417100-2'
