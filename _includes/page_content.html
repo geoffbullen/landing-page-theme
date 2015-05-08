@@ -1,7 +1,7 @@
 <section id="features">
 <!-- Page Content -->
-{% for post in site.posts reversed %}
-  {% if post.category == 'Features'%}
+{% for page in site.pages reversed %}
+  {% if page.category == 'Features'%}
       {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
         {% if thecycle == 'odd' %}
         <div class="content-section-a">
@@ -12,11 +12,11 @@
                     <div class="col-lg-5 col-sm-6">
                         <hr class="section-heading-spacer">
                         <div class="clearfix"></div>
-                        <h2 class="section-heading">{{ post.title }}</h2>
-                        <div class="lead">{{ post.content }}</div>
+                        <h2 class="section-heading">{{ page.title }}</h2>
+                        <div class="lead">{{ page.content }}</div>
                     </div>
                     <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                        <img class="img-responsive" src="img/features/{{ post.img }}" alt="">
+                        <img class="img-responsive" src="img/features/{{ page.img }}" alt="">
                     </div>
                 </div>
 
@@ -35,11 +35,11 @@
                     <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
                         <hr class="section-heading-spacer">
                         <div class="clearfix"></div>
-                        <h2 class="section-heading">{{ post.title }}</h2>
-                        <div class="lead">{{ post.content }}</div>
+                        <h2 class="section-heading">{{ page.title }}</h2>
+                        <div class="lead">{{ page.content }}</div>
                     </div>
                     <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                      <img class="img-responsive" src="img/features/{{ post.img }}" alt="">
+                      <img class="img-responsive" src="img/features/{{ page.img }}" alt="">
                     </div>
                 </div>
 
