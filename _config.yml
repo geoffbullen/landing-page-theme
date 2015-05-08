@@ -14,7 +14,7 @@ description: WallSync - use your phone to keep in sync your physical wall and Ag
 
 # Build settings
 markdown: kramdown
-permalink: pretty
+permalink: /blog/:title
 
 # ----------------------- #
 #   3rd Party Settings    #
