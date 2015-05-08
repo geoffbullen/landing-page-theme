@@ -2,6 +2,7 @@
 layout: single-page
 category: Other
 title: Security Statement
+permalink: /404.html
 description: |
 ---
 
