@@ -1,7 +1,7 @@
 ---
 layout: documentation
 category: Documentation
-title: Getting Started with WallSync
+title: Getting Started with syncing physical agile cards with WallSync
 menu_title: Getting Started
 description: |
 ---

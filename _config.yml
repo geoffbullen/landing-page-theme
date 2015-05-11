@@ -8,6 +8,7 @@ email: info@wallsync.net
 author: Geoff Bullen
 description: WallSync - use your phone to keep in sync your physical wall and Agile tools such as JIRA. See live data as you look at your physical wall.  Augmented reality comes to Agile
 
+
 # ----------------------- #
 #    Jekyll & Plugins     #
 # ----------------------- #
@@ -15,6 +16,9 @@ description: WallSync - use your phone to keep in sync your physical wall and Ag
 # Build settings
 markdown: kramdown
 permalink: /blog/:title
+excerpt_separator: <!--more-->
+paginate: 1
+paginate_path: "blog/page:num"
 
 # ----------------------- #
 #   3rd Party Settings    #

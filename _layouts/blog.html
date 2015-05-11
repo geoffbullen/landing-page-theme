@@ -6,13 +6,29 @@
 {% include header.html %}
 <div class="container">
     <div class="blog_content">
-        <div class="col-md-8 no-more">
+        <div class="col-md-8">
+            <h1>{{page.title}}</h1>
+            <img class="blog_img" src="/img/blog/{{page.img}}" alt="{{page.img_title}}"/>
             {{content}}
+            <div class="footer_followme">
+                Please
+                <a href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.url }}&text={{ page.title }}&via=startflowing"
+                   target="_blank">
+                    share this post</a>
+                and/or
+                <a href="https://twitter.com/startflowing">
+                    follow me on Twitter</a>
+            </div>
+            <div style="color:orange" class="learnmore">
+                You can now use your iPhone or android device to <a href="/">keep your physical Agile cards in sync</a>
+                <br />
+                <br />
+            </div>
+            {% include comments.html %}
         </div>
     </div>
 </div>
 {% include footer.html %}
-
 {% include js.html %}
 </body>
 </html>
