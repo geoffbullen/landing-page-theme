@@ -25,7 +25,7 @@ WallSync for JIRA Agile requires the following:
  3. An Agile board set up with issues available in the Active Sprint
  4. The phone or tablet app installed with your JIRA settings entered correctly
 
-See the [installation instructions](../installation) for some more information.
+See the [installation instructions](../documentation/installation) for some more information.
 
 
 Raising a support request
@@ -34,7 +34,7 @@ Raising a support request
 To allow our support team to resolve your issue quickly, we'd appreciate the following information to be included:
 
  1. A screen shot of the screen on your mobile or web browser
- 2. The output of the javascript console.  For example, here is how to [get from chrome](../chrome-console)
+ 2. The output of the javascript console.  For example, here is how to [get from chrome](../documentation/chrome-console)
  3. The url of your JIRA cloud instance
 
 Raise the ticket [here](https://startflowing.zendesk.com/tickets/new#).  We will get to it as soon as we can.
