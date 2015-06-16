@@ -1,0 +1,339 @@
+.navbar {
+  min-height: 120px !important;
+}
+
+.navbar-default {
+  background-color: #FFFFFF !important;
+}
+
+.navbar-nav {
+	margin-top: 50px;
+}
+
+li.button-li {
+	margin-left: 40px;
+}
+
+.page_content {
+  padding-top: 140px !important;
+  padding-bottom: 80px;
+  min-height: 100% !important;
+  overflow: hidden;
+}
+
+.blog_content {
+  padding-top: 140px !important;
+  padding-bottom: 20px;
+  min-height: 100% !important;
+  overflow: hidden;
+}
+
+.win_content {
+  padding-top: 120px !important;
+	padding-left: 0px !important;
+  min-height: 100% !important;
+  overflow: hidden;
+}
+
+.disqus_content {
+  padding-top: 40px !important;
+  padding-bottom: 20px;
+  min-height: 100% !important;
+  overflow: hidden;
+}
+
+article {
+	padding-bottom: 20px;
+}
+
+img.banner-main {
+	width: 100%;
+}
+
+.orange-bar {
+  padding: 25px 0 25px 0;
+  background-color: #FF9400;
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+}
+
+.bg-blue {
+  background-color: #00AEEE;
+}
+
+.blue-bar {
+  padding: 25px 0 25px 0;
+  background-color: #00AEEE;
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+	color: #FFFFFF;
+}
+
+ul.help {
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+.white, h2.apple {
+	color: #FFFFFF;
+}
+
+h1.win { font-size: 48px; font-weight: bold; margin-bottom: 24px; }
+
+h2.win { font-size: 36px; font-weight: bold; margin-bottom: 24px; }
+
+p.win { font-size: 18px; margin-bottom: 24px; }
+
+.btn-green {
+  -webkit-border-radius: 6 !important;
+  -moz-border-radius: 6 !important;
+  border-radius: 6px !important;
+  font-family: Arial !important;
+  color: #ffffff !important;
+  font-size: 20px !important;
+  background: #ADDB25 !important;
+  padding: 10px 20px 10px 20px !important;
+  border: solid #000000 1px !important;
+  text-decoration: none !important;
+}
+
+.btn-green:hover {
+  background: #65C3E9 !important;
+  text-decoration: none !important;
+}
+
+
+.btn-orange, li.button-li  a.btn-orange {
+  -webkit-border-radius: 6;
+  -moz-border-radius: 6;
+  border-radius: 6px;
+  font-family: Arial;
+  color: #ffffff !important;
+  font-size: 20px;
+  background: #FF9400 !important;
+  padding: 10px 20px 10px 20px;
+  border: solid #000000 1px;
+  text-decoration: none;
+}
+
+.btn-orange:hover, li.button-li  a.btn-orange:hover {
+  background: #65C3E9 !important;
+  text-decoration: none;
+}
+
+.fat {
+	padding: 20px 20px 20px 20px !important;
+}
+
+.android {
+	background-image: url(../img/illies/android-250h.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: contain;
+	min-height: 250px;
+	line-height: 230px;		
+}
+
+.ios {
+	background-image: url(../img/illies/apple-300h.png);
+	background-repeat: no-repeat;
+	background-position: right center;
+	min-height: 250px;
+	background-color: #000000;
+}
+
+.v-centre {
+		min-height: 250px;
+		line-height: 230px;		
+}
+
+.v-centre-skinny {
+		min-height: 80px;
+		line-height: 70px;		
+}
+
+.v-centre h1, .v-centre h2, .v-centre h3 {
+		display: inline-block;
+    vertical-align: middle !important;
+}
+
+ .v-top {
+	vertical-align: top !important;
+	top: 0;
+	margin-top: 0px;
+ }
+
+.nudge10 { padding-top: 10px }
+.nudge20 { padding-top: 20px }
+.nudge30 { padding-top: 30px }
+.nudge40 { padding-top: 40px }
+
+.promo {
+  font-size: 20px;
+  font-weight: 400;
+	padding-left: 12px;
+	padding-top: 12px;
+}
+
+ul.promo > li {
+	padding-bottom: 12px;
+}
+
+h2.lead {
+	font-size: 40px;
+  font-weight: 900;
+	margin-top: 0px;
+	padding-top: 0px;
+}
+
+h2.platform {
+	font-size: 28px;
+  font-weight: 900;
+	margin-top: 0px;
+	padding-top: 0px;
+}
+
+h3.lead {
+	font-size: 30px;
+  font-weight: 900;
+	margin-top: 0px;
+	padding: 40px 0 60px 0;
+}
+
+h3.sub-lead {
+  font-weight: 900;
+	padding: 16px 0 16px 0;
+}
+
+h3.docsublead {
+	margin-top: 20px;
+	padding: 16px 0 8px 0;
+}
+
+.footermargin40 {
+	margin-bottom: 40px;
+}
+
+.content-section-nopadding {
+  padding: none;
+}
+
+body > footer > div > div > div > div > ul > li > a {
+	text-transform: uppercase;
+	color: #FFFFFF;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+body > footer > div > div > div > div > ul > li > a:hover {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+footer {
+  padding: 0 0 0 0 !important;
+} 
+
+.footer {
+	padding: 50px 0 50px 0;
+}
+
+#menu-try-link {
+	display: none;
+}
+
+
+#menu-try-button {
+	display: inline-block;
+}
+
+	
+@media only screen and (min-width: 401px) and (max-width: 767px) {
+	li.button-li {
+		margin-left: auto;
+	}
+
+	#menu-try-link {
+		display: inline-block;
+	}
+	
+	#menu-try-link a { color: #e38d00 !important; text-decoration: none !important; height: 100% !important; position: relative; display: block; padding: 10px 15px; margin-left: 0px !important;}
+	#menu-try-link a :hover, #menu-try-link a :focus { color: #333333 !important;  text-decoration: none !important; height: 100% !important; position: relative; display: block; padding: 10px 15px; margin-left: 0px !important;}
+
+	#menu-try-button {
+		display: none;
+	}
+
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+		border: none;
+	}
+	
+	body > nav > div > div.navbar-header.page-scroll > a > img	 { padding-bottom: 10px; }
+	
+	.v-centre {
+		min-height: 100px;
+		line-height: 90px;		
+		overflow: hidden;
+		text-align: center;
+	}
+
+	ul.banner-social-buttons {
+		width: 100% !important;
+		text-align: center !important;
+	}	
+	
+	h2.platform {
+		padding-top: 12px !important;
+	}
+	
+	.apple {
+		color: #00AEEE !important;
+	}
+
+	.android {
+		max-height: 250px !important;
+	}
+	
+}	
+
+@media only screen and (max-width: 400px) {
+	li.button-li {
+		margin-left: auto;
+	}
+
+	#menu-try-link {
+		display: inline-block;
+	}
+
+	#menu-try-link a { color: #e38d00 !important; text-decoration: none !important; height: 100% !important; position: relative; display: block; padding: 10px 15px; margin-left: 0px !important;}
+	#menu-try-link a :hover, #menu-try-link a :focus { color: #333333 !important;  text-decoration: none !important; height: 100% !important; position: relative; display: block; padding: 10px 15px; margin-left: 0px !important;}
+	
+	#menu-try-button {
+		display: none;
+	}
+
+	.v-centre {
+		min-height: 100px;
+		line-height: 90px;		
+		overflow: hidden;
+		text-align: center;		
+	}
+	
+	ul.banner-social-buttons {
+		width: 100% !important;
+		text-align: center !important;
+	}	
+	
+	h2.platform {
+		padding-top: 12px !important;
+	}
+	
+	.apple {
+		color: #00AEEE !important;
+	}
+
+	.android {
+		max-height: 250px !important;
+	}
+	
+}	

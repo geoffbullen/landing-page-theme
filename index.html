@@ -1,5 +1,557 @@
----
-layout: default
-title: WallSync - sync your physical and virtual Agile card wall
-subTitle: The future of Agile has come early
----
+<!DOCTYPE html>
+<html>
+	<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="WallSync - use your phone to keep in sync your physical wall and Agile tools such as JIRA. See live data as you look at your physical wall.  Augmented reality comes to Agile">
+    <meta name="author" content="Geoff Bullen">
+
+    <title>Home - WallSync: sync your physical and virtual Agile card wall</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
+		
+		<!-- jQuery Version 1.11.0 -->
+		<script src="/js/jquery-1.11.0.js"></script>
+		
+
+    <!-- Custom CSS -->
+    <link href="/css/landing-page.css" rel="stylesheet">
+    <link href="/css/documentation-page.css" rel="stylesheet">
+    <link href="/css/site.css" rel="stylesheet">
+		<link href="/css/wallsync-override.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="/font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet"
+          type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+		
+		<script type="text/javascript">
+			$(document).ready(function() {
+				/*
+				 *  Simple image gallery. Uses default settings
+				 */
+
+				$('.fancybox').fancybox();
+
+				/*
+				 *  Different effects
+				 */
+
+				// Change title type, overlay closing speed
+				$(".fancybox-effects-a").fancybox({
+					helpers: {
+						title : {
+							type : 'outside'
+						},
+						overlay : {
+							speedOut : 0
+						}
+					}
+				});
+
+				// Disable opening and closing animations, change title type
+				$(".fancybox-effects-b").fancybox({
+					openEffect  : 'none',
+					closeEffect	: 'none',
+
+					helpers : {
+						title : {
+							type : 'over'
+						}
+					}
+				});
+
+				// Set custom style, close if clicked, change title type and overlay color
+				$(".fancybox-effects-c").fancybox({
+					wrapCSS    : 'fancybox-custom',
+					closeClick : true,
+
+					openEffect : 'none',
+
+					helpers : {
+						title : {
+							type : 'inside'
+						},
+						overlay : {
+							css : {
+								'background' : 'rgba(238,238,238,0.85)'
+							}
+						}
+					}
+				});
+
+				// Remove padding, set opening and closing animations, close if clicked and disable overlay
+				$(".fancybox-effects-d").fancybox({
+					padding: 0,
+
+					openEffect : 'elastic',
+					openSpeed  : 150,
+
+					closeEffect : 'elastic',
+					closeSpeed  : 150,
+
+					closeClick : true,
+
+					helpers : {
+						overlay : null
+					}
+				});
+
+				/*
+				 *  Button helper. Disable animations, hide close button, change title type and content
+				 */
+
+				$('.fancybox-buttons').fancybox({
+					openEffect  : 'none',
+					closeEffect : 'none',
+
+					prevEffect : 'none',
+					nextEffect : 'none',
+
+					closeBtn  : false,
+
+					helpers : {
+						title : {
+							type : 'inside'
+						},
+						buttons	: {}
+					},
+
+					afterLoad : function() {
+						this.title = 'Image ' + (this.index + 1) + ' of ' + this.group.length + (this.title ? ' - ' + this.title : '');
+					}
+				});
+
+				/*
+				 *  Open manually
+				 */
+
+				$("#fancybox-manual-a").click(function() {
+					$.fancybox.open('1_b.jpg');
+				});
+
+				$("#fancybox-manual-b").click(function() {
+					$.fancybox.open({
+						href : 'iframe.html',
+						type : 'iframe',
+						padding : 5
+					});
+				});
+
+				$("#fancybox-manual-c").click(function() {
+					$.fancybox.open([
+						{
+							href : '1_b.jpg',
+							title : 'My title'
+						}, {
+							href : '2_b.jpg',
+							title : '2nd title'
+						}, {
+							href : '3_b.jpg'
+						}
+					], {
+						helpers : {
+							thumbs : {
+								width: 75,
+								height: 50
+							}
+						}
+					});
+				});
+
+
+			});
+		</script>
+		<style type="text/css">
+			.fancybox-custom .fancybox-skin {
+				box-shadow: 0 0 50px #222;
+			}
+		</style>
+		
+
+
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-62093533-2', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+
+    <script>
+        (function () {
+            var _fbq = window._fbq || (window._fbq = []);
+            if (!_fbq.loaded) {
+                var fbds = document.createElement('script');
+                fbds.async = true;
+                fbds.src = '//connect.facebook.net/en_US/fbds.js';
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(fbds, s);
+                _fbq.loaded = true;
+            }
+            _fbq.push(['addPixelId', '1595460370667670']);
+        })();
+        window._fbq = window._fbq || [];
+        window._fbq.push(['track', 'PixelInitialized', {}]);
+    </script>
+
+    <noscript><img height="1" width="1" alt="" style="display:none"
+                   src="https://www.facebook.com/tr?id=1595460370667670&amp;ev=PixelInitialized"/>
+    </noscript>
+
+</head>
+
+	<body>
+		<!-- Navigation -->
+		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+			<div class="container">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header page-scroll">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+									<span class="sr-only">Toggle navigation</span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+							</button>
+							<a class="navbar-brand page-scroll" href="/#"><img src="/img/wallsync-logo.png"></a>
+					</div>
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							<ul class="nav navbar-nav navbar-right">  
+								<li class="normal">
+										<a class="page-scroll" href="/#about">About</a>
+								</li>            
+								<li class="normal">
+										<a class="page-scroll" href="/#features">Features</a>
+								</li>
+								<li class="normal">
+										<a href="/contact">Contact</a>
+								</li>
+								<li class="normal">
+										<a class="page-scroll"  href="/documentation">Documentation</a>
+								</li>
+								<li class="normal">
+										<a class="page-scroll"  href="/blog">Blog</a>
+								</li>
+								<li class="button-li">
+									<div id="menu-try-button">
+										<a class="btn-orange" href="https://marketplace.atlassian.com/plugins/wallsync-for-jira" target="_blank">Try it free</a>
+									</div>
+									<div id="menu-try-link">
+										<a href="https://marketplace.atlassian.com/plugins/wallsync-for-jira" target="_blank">Try it free</a>
+									</div>
+								</li>
+							</ul>
+					</div>
+					<!-- /.navbar-collapse -->
+			</div>
+			<!-- /.container -->
+		</nav>
+		<link href="/css/header.css" rel="stylesheet">
+
+
+    <section id="home">
+			<!-- Header -->
+			<div class="intro-header">
+        <div class="container">
+          <div class="row">
+						<div class="col-lg-12">
+							<div class="intro-message">
+							</div>
+						</div>
+					</div>
+        </div>
+        <!-- /.container -->
+			</div>
+			<!-- /.intro-header -->
+		</section>
+
+		<section id="intro">
+			<div class="orange-bar">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-lg-9 col-lg-offset-1 col-sm-8 text-center">
+							<h2 class="white">JIRA’s first augmented reality tool lets you have the best of both worlds.</h2>
+						</div>
+						<div class="col-lg-2 col-sm-4 nudge20 text-center">
+							<a class="btn-green" href="https://marketplace.atlassian.com/plugins/wallsync-for-jira" target="_blank">Try it free</a>
+						</div>
+					</div>
+				</div> <!-- /.container-fluid -->
+			</div> <!-- /.orange-bar -->
+		
+			<!-- About Page Content -->
+			<div class="content-section-b">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-5 col-sm-6 text-center">
+							<h2 class="lead">Here, have some cake.<br />Yes you can eat it too.</h2>
+							<img class="img-responsive" src="img/illies/cake-and-eat-it.jpg" alt="">
+						</div>
+						<div class="col-lg-5 col-lg-offset-2 col-sm-6">
+							<div class="promo">
+								<p>We know how it goes...<p>
+								<p>You want the physical wall because nothing beats that personal interaction and everything that comes with it.</p>
+								<p>But it’s easy to miss the problem cards, the ones that are stalled or people are discussing a lot due to block or a lack of understanding.<p>
+								<p><b>WallSync gives you critical info in real time as you look at the physical board through your mobile or tablet.</b></p>
+								<p>You want to use JIRA because of the power it brings to automating and tracking your data.</p>
+								<p>But keeping JIRA up to date with all changes from the wall and remote team members is a pain.</p>
+								<p><b>WallSync will handle it so you don’t need to.</b></p>
+							</div>
+						</div>
+					</div>
+				</div> <!-- /.container -->
+			</div> <!-- /.content-section-a -->
+		</section>
+		
+		<section id="blue-bar-1">
+			<!-- Page Content -->
+		</section> <!-- /#blue-bar-1 -->
+
+		<section id="about">
+			<div class="blue-bar">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-lg-12 text-center">
+							<h2 class="white">The live data of JIRA and the collaboration of physical cards.</h2>
+						</div>
+					</div>
+				</div> <!-- /.container -->
+			</div> <!-- /.blue-bar -->
+
+			<!-- Page Content -->
+			<div class="content-section-b">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-5 col-sm-6">
+							<h2 class="lead text-center">Say goodbye to...</h2>
+							<div class="promo">
+								<ul class="promo">
+									<li>Spending too much time keeping JIRA up to date.</li>
+									<li>Not noticing cards that are stuck in progress.</li>
+									<li>Not having enough information to know which cards need attention.</li>								
+									<li>Losing trust in the accuracy of your JIRA statuses.</li>								
+									<li>Chasing remote team members for updates.</li>
+									<li>Struggling to keep team’s walls in different locations in sync.</li>
+									<li>Having a lack of visibility of who is doing what.</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-lg-7 col-sm-6">
+							<img class="img-responsive" src="img/illies/scrum-master.png" alt="">
+						</div>
+					</div>
+				</div> <!-- /.container -->
+			</div> <!-- /.content-section-a -->
+		</section>
+
+		<section id="orange-bar-2">
+			<!-- Page Content -->
+		</section> <!-- /#orange-bar-1 -->
+		
+		<!-- Features Section -->
+		<section id="features">
+			<div class="orange-bar">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-lg-12 text-center">
+							<h2 class="white">Let your wall do the work for you - automated reconciliation with JIRA Agile.</h2>
+						</div>
+					</div>
+				</div> <!-- /.container -->
+			</div> <!-- /.orange-bar -->
+
+			<div class="content-section-b">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12 text-center">
+							<h3 class="lead">All the best features of JIRA and the physical wall with none of the drawbacks.</h3>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-3">
+							<div class="row">
+								<img class="img-responsive" src="img/illies/live_data.jpg" alt="">
+							</div>
+							<div class="row">
+								<h3 class="sub-lead text-center">Live information overlaid on your physical cards.</h3>
+								<div class="promo footermargin40">
+									<p>Take the right actions at your stand up.</p>
+									<p>Instantly see:</p>
+									<p>Which cards aren’t moving<br/>
+									(when it was last updated).<p>
+									<p>Who the assignee is.</p>
+									<p>Which cards have the most discussion<br />
+									(number of comments).</p>
+									<p>All of of this instantly available.<p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-md-offset-1">
+							<div class="row">
+								<img class="img-responsive" src="img/illies/world.jpg" alt="">
+							</div>
+							<div class="row v-top">
+								<h3 class="sub-lead text-center">Distributed team?<br />No problem.</h3>
+								<div class="promo footermargin40">
+									<p>No more admin headaches trying to keep physical tasks boards in multiple locations in sync.</p>
+									<p>Just Sync the boards before and after your stand up.</p>
+									<p>A painless way to help teams collaborate across locations.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-lg-offset-1">
+							<div class="row">
+								<img class="img-responsive" src="img/illies/sync.jpg" alt="">
+							</div>
+							<div class="row v-top">
+								<h3 class="sub-lead text-center">Keep in sync<br />&nbsp;</h3>
+								<div class="promo footermargin40">
+									<p>Easily manage a physical card wall.</p>
+									<p>You can see differences between the cards on the wall and JIRA and make them match up with a click of a button.</p>
+									<p>Get your task wall up to date in seconds before your stand up.<p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section id="blue-bar-2">
+			<!-- Page Content -->
+        <div class="blue-bar">
+					<div class="container-fluid">
+            <div class="row">
+							<div class="col-lg-12 text-center">
+								<h2 class="white">Keeping your card wall in sync is a cinch.</h2>
+							</div>
+						</div>
+					</div> <!-- /.container -->
+        </div> <!-- /.blue-bar -->
+		</section> <!-- /#blue-bar-2 -->
+
+		<section id="availability-1">
+			<!-- Page Content -->
+			<div class="content-section-nopadding">
+					<div class="container-fluid">
+            <div class="row android">
+							<div class="col-lg-7 col-lg-offset-3 col-sm-8 v-centre text-center">
+								<h2 class="platform">WallSync is currently available for Android devices.</h2>
+							</div>
+							<div class="col-lg-2 col-sm-4 v-centre text-center">
+								<a class="btn-orange" href="https://marketplace.atlassian.com/plugins/wallsync-for-jira" target="_blank">Try it free</a>
+							</div>
+						</div>
+					</div> <!-- /.container-fluid -->
+			</div> <!-- /.content-section-a -->
+		</section>
+		
+		<section id="availability-2">
+			<!-- Page Content -->
+			<div class="content-section-nopadding">
+					<div class="container-fluid">
+            <div class="row ios">
+							<div class="col-lg-5 col-lg-offset-1 col-sm-8 v-centre text-center">
+								<h2 class="platform apple">Coming Soon. Apple iOS and Server versions.</h2>
+							</div>
+							<div class="col-lg-6 col-sm-4 v-centre text-center">
+								<a class="btn-orange fancybox fancybox.iframe" data-fancybox-type="iframe" href="/notify.html">Notify me!</a>
+							</div>
+						</div>
+					</div> <!-- /.container-fluid -->
+			</div> <!-- /.content-section-a -->
+		</section>
+
+		<section id="contact">
+			<div class="content-section-nopadding">
+					<div class="container-fluid">
+            <div class="row">
+							<div class="col-lg-3 col-lg-offset-1 col-sm-4 v-centre text-center">
+								<h1>Keep in touch.</h1>
+							</div>
+							<div class="col-lg-2 col-sm-4 v-centre text-center">
+								<ul class="list-inline banner-social-buttons">
+									<li>
+										<a href="https://twitter.com/intent/tweet?hashtags=wallsync&screen_name=startflowing" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">twitter</span></a>
+									</li>
+								</ul>
+							</div>
+							<div class="col-lg-2 col-sm-4 v-centre text-center">
+								<ul class="list-inline banner-social-buttons">
+									<li>
+										<a class="btn btn-default btn-lg fancybox fancybox.iframe" data-fancybox-type="iframe" href="/notify.html"><i class="fa fa-envelope fa-fw"></i> <span class="network-name">Email List</span></a>
+										<!-- <a href="/contact/" class="btn btn-default btn-lg"><i class="fa fa-envelope fa-fw"></i> <span class="network-name">Email List</span></a> -->
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div> <!-- /.container-fluid -->
+			</div> <!-- /.content-section-a -->
+		</section>
+		
+		
+		<!-- Footer -->
+		<footer>
+			<div class="blue-bar footer">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-12 text-center">
+							<ul class="list-inline">
+								<li><a href="/#home">Home</a></li>
+								<li><a href="/#about">About</a></li>
+								<li><a href="/#features">Features</a></li>
+								<li><a href="/contact/">Contact</a></li>
+								<li><a href="/documentation">Documentation</a></li>
+								<li><a href="/blog/">Blog</a></li>
+							</ul>
+							<p class="copyright small">Copyright &copy; Flow Technologies - All Rights Reserved</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<div class="fixme panel panel-danger" style="display: none;">
+			<h1><strong>NEWS:</strong> Now for JIRA Agile</h1>
+			<br />
+			<a href="https://marketplace.atlassian.com/plugins/wallsync-for-jira" target="_blank"><img src="/img/documentation/marketplace_available_light_140x60.png" /></a>
+			<h2><strong>100%</strong> of sales $$s we get in May and June go to the <a href="http://redcross.org.au/nepal-earthquake-2015.aspx">Nepal Earthquake appeal</a></h2>
+		</div>
+
+
+		<!-- Plugin JavaScript -->
+    <script src="/js/jquery.easing.min.js"></script>
+
+		<!-- Bootstrap Core JavaScript -->
+		<script src="/js/bootstrap.min.js"></script>
+
+		<!-- Custom Theme JavaScript -->
+		<script src="/js/landing-page.js"></script>
+		
+	<script type="text/javascript" src="/js/jquery.fancybox.js?v=2.1.5"></script>
+	<link rel="stylesheet" type="text/css" href="/css/jquery.fancybox.css?v=2.1.5" media="screen" />
+
+	</body>
+</html>
