@@ -17,7 +17,7 @@
     position: relative;
     text-align: center;
 
-    background: url(../img/post-it-head.png) no-repeat;
+    background: url("/img/post-it-head.jpg") no-repeat;
     background-position: center 80px;
     background-size: auto 120%;
 }
