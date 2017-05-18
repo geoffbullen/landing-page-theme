@@ -9,6 +9,23 @@ $(function() {
     });
 });
 
+
+$(window).load(function() {
+   $('html, body').animate({ scrollTop: 0 }, 'medium');
+   pageScroll()
+   setTimeout(function(){stopScroll()}, 15000);
+});
+
+function pageScroll() {
+    	window.scrollBy(0,1); // horizontal and vertical scroll increments
+    	scrolldelay = setTimeout('pageScroll()',10); // scrolls every 100 milliseconds
+}
+
+function stopScroll() {
+    	clearTimeout(scrolldelay);
+}
+
+
 // Highlight the top nav as scrolling occurs
 $('body').scrollspy({
     target: '.navbar-fixed-top'
