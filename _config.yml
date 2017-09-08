@@ -23,7 +23,3 @@ paginate_path: "blog/page:num"
 # ----------------------- #
 #   3rd Party Settings    #
 # ----------------------- #
-
-social:
-  - title: twitter
-    url: https://twitter.com/intent/tweet?hashtags=wallsync&screen_name=startflowing
