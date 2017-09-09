@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="">
-
  <head>
 
   <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
   <meta name="generator" content="2017.0.2.363"/>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="assets/img/favicon.png" />
  
   <title>wallsync</title>
   
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+  
   
     <!-- CSS -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
@@ -52,13 +52,21 @@
 				<button class="btn-blue btn" data-toggle="modal" data-target="#myModal">Request a demo</button>
 			</div>	  
 			<div class="col-sm-6 cell xs-small">
-				<div class="embed-responsive embed-responsive-4by3">
-					<video muted playsinline autoplay preload loop>
-                        <source src="assets/img/video.mp4">
+				<div class="hidden-xs embed-responsive embed-responsive-4by3">
+					<video id="video1" muted playsinline autoplay controls="controls" preload="none" loop>
+                        <source src="assets/img/video.mp4" type="video/mp4" >
                     </video>
+
 					<!--<iframe src="assets/img/video.webm" class="embed-responsive-item" ></iframe>-->
 				</div>
-				<!--<img src="img/mobile-frame.png" alt="">-->
+
+				<div class="visible-xs embed-responsive embed-responsive-4by3">
+                   <div class="video">
+                    <img src="assets/img/video.gif"/>
+                   </div>
+                    
+                    <!--<iframe src="assets/img/video.webm" class="embed-responsive-item" ></iframe>-->
+                </div>
 			</div>
 			
 		</div>
@@ -210,7 +218,8 @@
         </div>
 	
 	 <!-- script -->
-	<script src="assets/js/jquery.js"></script>                      
+	<script src="assets/js/jquery.js"></script>    
+    <script src="assets/js/custom.js"></script>                      
 	<script type='text/javascript' src='https://s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
         <script src="assets/js/bootstrap.min.js"></script>
 	<script type='text/javascript'>(function ($) {
