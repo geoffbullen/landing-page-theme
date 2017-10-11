@@ -11,9 +11,9 @@ $(function() {
 
 
 $(window).load(function() {
-   $('html, body').animate({ scrollTop: 0 }, 'medium');
-   pageScroll()
-   setTimeout(function(){stopScroll()}, 15000);
+   //$('html, body').animate({ scrollTop: 0 }, 'medium');
+   //pageScroll()
+   //setTimeout(function(){stopScroll()}, 15000);
 });
 
 function pageScroll() {
