@@ -30,7 +30,9 @@ To allow our support team to resolve your issue quickly, we'd appreciate the fol
  2. The output of the javascript console.  For example, here is how to [get from chrome](../documentation/chrome-console)
  3. The url of your JIRA cloud instance
 
-Raise the ticket.  We will get to it as soon as we can.
+<a href = "https://wallsync.atlassian.net/rest/collectors/1.0/template/form/65ce5a3a?os_authType=none#">Raise the ticket here</a>.  We will get to it as soon as we can.
+
+
 
 
 
