@@ -1,0 +1,42 @@
+<div class="section-header">
+<div class="container">
+    <div class="row">
+        <div class="col-md-3">
+            <div class="sidebar-nav">
+                <div class="navmenu navmenu-default navmenu-fixed-left" role="navigation">
+                    <ul class="sidebar-nav nav navmenu-nav">
+                        {% for page in site.pages %}
+                            {% if page.category == 'Documentation'%}
+                            <li>
+                                <a href="{{ page.url }}">{{ page.title }}</a>
+                            </li>
+                            {% endif %}
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>   <!-- end column -->
+
+
+
+        <div class="col-md-9">
+            {% if  content.size > 1 %}
+
+                {{content}}
+
+            {% else %}
+
+            <h3>Quick start</h3>
+            <p>To get a flavour for how WallSync works, see this 1 minute video:</p>
+
+            <iframe width="640" height="390" src="https://www.youtube.com/embed/WBNiaDbVRyk?rel=0" frameborder="0" allowfullscreen></iframe>
+
+            {% endif %}
+        </div>
+    </div>
+</div>
+    </div>
+
+
+
+
