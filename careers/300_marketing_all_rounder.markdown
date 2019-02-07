@@ -50,7 +50,7 @@ This isn’t your typical job.  Have real influence over the development of a gr
 
 Send an email to [jobs@wallsync.net](mailto:jobs@wallsync.net?subject=Marketing Position) with the following:
 
-- A link to a  short (less than 3 minutes) video introducing yourself. Explain why you're the best candidate to help us
+- A link to a  short (less than 3 minutes) video introducing yourself. Explain why you're the best candidate to help us and why you want to
 - Links to any previous work that will wow us
 - A copy of your short resume
 - Any questions for us
