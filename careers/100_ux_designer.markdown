@@ -6,10 +6,10 @@ menu_title: User Experience (UX) Designer
 description: |
 ---
 
-Part-time User Experience (UX) Designer 
+User Experience (UX) Designer 
 ====================
 
-### What we are looking for
+### What we're looking for
 
 We need someone to bring a designers mindset and eye to WallSync!   Built by techies; we need help creating a fantastic user experience.   
 

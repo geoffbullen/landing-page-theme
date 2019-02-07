@@ -6,10 +6,10 @@ menu_title: Mobile Software Developer
 description: |
 ---
 
-Part-time Mobile Software Developer
+Mobile Software Developer
 ====================
 
-### What we are looking for
+### What we're looking for
 
 - Someone that is comfortable picking up new technologies fast
 - Someone that cares about delivering a great user experience.   Simplicity over features.
