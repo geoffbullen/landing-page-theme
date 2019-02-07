@@ -1,21 +1,18 @@
 ---
 layout: careers
 category: Careers
-title: User Experience (UX) Designer
-menu_title: User Experience (UX) Designer
+title: Mobile Software Developer
+menu_title: Mobile Software Developer
 description: |
 ---
 
-Part-time User Experience (UX) Designer 
+Part-time Mobile Software Developer
 ====================
 
 ### What we are looking for
 
-We need someone to bring a designers mindset and eye to WallSync!   Built by techies; we need help creating a fantastic user experience.   
-
-- Someone who believes that in design (as in life?) less is more 
-- Someone that has strong opinions and is willing to defend them; yet not entrenched and very open to new ideas
-- Someone that will collaborate with the team to get their design vision implemented
+- Someone that is comfortable picking up new technologies fast
+- Someone that cares about delivering a great user experience.   Simplicity over features.
 - Someone that welcomes the unstructured environment and opportunities of an early stage startup
 
 ### Where we're at
@@ -30,23 +27,27 @@ Have a look at [wallsync.net](wallsync.net) and [makemebeta.wallsync.net](makeme
 
 ### Skills Required
 
-- Demonstrable UI design skills with a strong portfolio
-- Experience creating clickable prototypes (e.g. in one of proto.io, Invision, Principle, Framer)
-- Ability to create high-quality visual designs, wireframes and user flows (e.g. in  Sketch &  InVision)
-- Strong visual design skills and knowledge of design principles (colour, layout, typography)
-- Graphic design
+- Exceptional communications skills
+- 3 yrs+ iOS development, including strong Swift skills
+- Unit and integration testing of mobile apps
+- NodeJS
+- Writing clean, well structured, documented code
 
 ###  Nice to haves
 
-- An understanding of HTML and CSS
-- Copywriting skills
-- Experience of Agile software development
+- AngularJS
+- Nativescript
+- React Native
+- Experience managing AWS environments
+- Computer Vision
+- Machine Learning
+- Augmented Reality
 
 This isn’t your typical job.  Have real influence over the development of a great product and company.  Get exposure to a wide range of technologies and areas of product development.  Be there at the beginning of an amazing journey!
 
 ### Ready to Apply?
 
-Send an email to [jobs@wallsync.net](mailto:jobs@wallsync.net?subject=UX Designer Position) with the following:
+Send an email to [jobs@wallsync.net](mailto:jobs@wallsync.net?subject=Mobile Developer Role) with the following:
 
 - Links to any previous work that will wow us
 - A copy of your short resume
