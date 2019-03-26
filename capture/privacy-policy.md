@@ -41,13 +41,13 @@ Why do we collect, use and disclose personal information?
 --------------------
 
 We may collect, hold, use and disclose your personal information for the following purposes:
-•	to enable you to access and use our services and applications
-•	to operate, protect, improve and optimise our services and applications business and our users’ experience, such as to perform analytics, conduct research and for advertising and marketing;
-•	to send you service, support and administrative messages, reminders, technical notices, updates, security alerts, and information requested by you;
-•	to send you marketing and promotional messages and other information that may be of interest to you, including information sent by, or on behalf of, our business partners that we think you may find interesting;
-•	to administer rewards, surveys, contests, or other promotional activities or events sponsored or managed by us or our business partners;
-•	to comply with our legal obligations, resolve any disputes that we may have with any of our users, and enforce our agreements with third parties; and
-•	to consider your employment application. 
+ * to enable you to access and use our services and applications
+ * to operate, protect, improve and optimise our services and applications business and our users’ experience, such as to perform analytics, conduct research and for advertising and marketing;
+ * to send you service, support and administrative messages, reminders, technical notices, updates, security alerts, and information requested by you;
+ * to send you marketing and promotional messages and other information that may be of interest to you, including information sent by, or on behalf of, our business partners that we think you may find interesting;
+ * to administer rewards, surveys, contests, or other promotional activities or events sponsored or managed by us or our business partners;
+ * to comply with our legal obligations, resolve any disputes that we may have with any of our users, and enforce our agreements with third parties; and
+ * to consider your employment application. 
 
 We may also disclose your personal information to a trusted third party who also holds other information about you. This third party may combine that information in order to enable it and us to develop anonymised consumer insights so that we can better understand your preferences and interests, personalise your experience and enhance the products and services that you receive.
 
