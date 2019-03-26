@@ -1,4 +1,6 @@
 ---
 title: Capture Home
+layout: single-page
 ---
-<h1>{{ "Hello Capture!" | downcase }}</h1>
+{% include capture-documentation-content.html %}
+{% include js.html %}
