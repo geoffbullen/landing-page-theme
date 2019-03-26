@@ -8,6 +8,13 @@ description: |
 Having problems?  Read this first
 ====================
 
+Watch the video
+----------
+
+To get a flavour for how it should work, see this 1 minute video:
+
+<iframe width="640" height="390" src="https://www.youtube.com/embed/WBNiaDbVRyk?rel=0" frameborder="0" allowfullscreen></iframe>
+
 Dependencies
 ------------
 
@@ -18,7 +25,7 @@ WallSync for JIRA Agile requires the following:
  3. An Agile board set up with issues available in the Active Sprint
  4. The phone or tablet app installed with your JIRA settings entered correctly
 
-See the [installation instructions](../documentation) for some more information.
+See the [installation instructions](../documentation/installation) for some more information.
 
 
 Raising a support request
@@ -30,9 +37,7 @@ To allow our support team to resolve your issue quickly, we'd appreciate the fol
  2. The output of the javascript console.  For example, here is how to [get from chrome](../documentation/chrome-console)
  3. The url of your JIRA cloud instance
 
-<a href = "https://wallsync.atlassian.net/rest/collectors/1.0/template/form/65ce5a3a?os_authType=none#">Raise the ticket here</a>.  We will get to it as soon as we can.
-
-
+Raise the ticket [here](https://startflowing.zendesk.com/tickets/new#).  We will get to it as soon as we can.
 
 
 
