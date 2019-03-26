@@ -59,15 +59,15 @@ To whom do we disclose your personal information?
 --------------------
 We may disclose personal information for the purposes described in this privacy policy to:
 
-•	our employees and related bodies corporate;
-•	third party suppliers and service providers (including providers for the operation of our websites and/or our business or in connection with providing our products and services to you);
-•	professional advisers, dealers and agents;
-•	payment systems operators (eg merchants receiving card payments); 
-•	our existing or potential agents, business partners or partners;
-•	our sponsors or promoters of any competition that we conduct via our services;
-•	anyone to whom our assets or businesses (or any part of them) are transferred;
-•	specific third parties authorised by you to receive information held by us; and/or
-•	other persons, including government agencies, regulatory bodies and law enforcement agencies, or as required, authorised or permitted by law.
+ * our employees and related bodies corporate;
+ * third party suppliers and service providers (including providers for the operation of our websites and/or our business or in connection with providing our products and services to you);
+ * professional advisers, dealers and agents;
+ * payment systems operators (eg merchants receiving card payments); 
+ * our existing or potential agents, business partners or partners;
+ * our sponsors or promoters of any competition that we conduct via our services;
+ * anyone to whom our assets or businesses (or any part of them) are transferred;
+ * specific third parties authorised by you to receive information held by us; and/or
+ * other persons, including government agencies, regulatory bodies and law enforcement agencies, or as required, authorised or permitted by law.
 
 Disclosure of personal information outside Australia
 --------------------
