@@ -3,7 +3,7 @@
     <div class="row">
         <div class="col-md-3">
             <div class="sidebar-nav">
-                <div class="navmenu navmenu-default navmenu-fixed-left navmenu-collapse" role="navigation">
+                <div class="navmenu navmenu-default navmenu-fixed-left" role="navigation">
                     <ul class="sidebar-nav nav navmenu-nav">
                         {% for page in site.pages %}
                             {% if page.category == 'Documentation'%}
@@ -26,31 +26,11 @@
 
             {% else %}
 
-                 <h1>Quick start</h1>
+            <h3>Quick start</h3>
+            <p>To get a flavour for how WallSync works, see this 1 minute video:</p>
 
-                 <div class="alert alert-warning" role="alert">
+            <iframe width="640" height="390" src="https://www.youtube.com/embed/WBNiaDbVRyk?rel=0" frameborder="0" allowfullscreen></iframe>
 
-                        <strong>The order is important!</strong> -- Please follow these steps in the order layed out below</a>
-
-                </div>
-                <h3>In JIRA</h3>
-                <ol>
-                    <li>Install the WallSync JIRA Add-on (available from <span>
-                        <a href="https://marketplace.atlassian.com/plugins/wallsync-for-jira/cloud/overview">
-                        the Atlassian Marketplace</a></span>)
-                    </li>
-                    <li>Open one of your Agile Boards, you should see the new WallSync dropdown at the top of the board panel</li>
-                    <li>Select "View/Print Cards".   You should get a set of cards generated that inculde the WallSync unique code.</li>
-                    <li>Select "Setup Phone".  Confirm your password and email the security token to youself so that you have access to it on your device.</li>
-
-                </ol>
-                <h3>On your mobile or tablet device</h3>
-                <ol>
-                    <li>Search for the free WallSync mobile app in the app store for your device.  Install and Run!</li>
-                    <li>Paste in the token that you emailed to yourself</li>
-                     <li>Select the board that you set up earlier and point your device at the WallSync cards on your screen</li>
-                </ol>
-            
             {% endif %}
         </div>
     </div>
