@@ -7,7 +7,7 @@ description: |
 
 # Privacy Policy
 
-In this Privacy Policy, 'us' 'we' or 'our' means WallSync Pty Ltd 41 631 336 699. We are committed to respecting your privacy. Our Privacy Policy sets out how we collect, use, store and disclose your personal information.
+In this Privacy Policy, 'us' 'we' or 'our' means WallSync Pty Ltd (ABN: 41 631 336 699). We are committed to respecting your privacy. Our Privacy Policy sets out how we collect, use, store and disclose your personal information.
 
 By providing personal information to us, you consent to our collection, use and disclosure of your personal information in accordance with this Privacy Policy and any other arrangements that apply between us. We may change our Privacy Policy from time to time by publishing changes to it on our website. We encourage you to check our website periodically to ensure that you are aware of our current Privacy Policy.
 
@@ -20,7 +20,7 @@ We may collect the following types of personal information:
  * name;
  * mailing or street address;
  * email address;
- * elephone number and other contact details;
+ * telephone number and other contact details;
  * age or date of birth;
  * your device ID, device type, geo-location information, computer and connection information, statistics on page views, traffic to and from the sites, ad data, IP address and standard web log information;
   * details of the products and services we have provided to you or that you have enquired about, including any additional information necessary to deliver those products and services and respond to your enquiries;
