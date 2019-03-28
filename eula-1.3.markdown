@@ -1,7 +1,7 @@
 ---
 layout: single-page
 category: Security
-title: Security Statement
+title: End-User License Agreement - WallSync Agile Workshop Sync
 description: |
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: single-page
 category: License
-title: WallSync End User License Agreement
+title: WallSync End User License Agreement - Workshop Capture
 description: |
 ---
 
