@@ -1,0 +1,666 @@
+@font-face {
+    font-family: 'AvenirNext';
+    src: url('../fonts/avenir/AvenirNextLTPro-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'AvenirNext';
+    src: url('../fonts/avenir/AveniMed.ttf') format('truetype');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'AvenirNext';
+    src: url('../fonts/avenir/AvenirNextLTPro-Bold.ttf') format('truetype');
+    font-weight: 700;
+}
+
+body {
+    font-size: 16px;
+    line-height: 1.33;
+    color: #2a2a2a;
+    font-family: 'AvenirNext', sans-serif;
+    background: #fff;
+}
+
+a,
+a:hover {
+    text-decoration: none
+}
+
+.btn,
+a {
+    -webkit-transition: all .3s ease-out 0s;
+    -moz-transition: all .3s ease-out 0s;
+    -ms-transition: all .3s ease-out 0s;
+    -o-transition: all .3s ease-out 0s;
+    transition: all .3s ease-out 0s
+}
+
+.p-0 {
+    padding: 0;
+}
+
+.bg-blue {
+    background: #212EB3;
+}
+
+.btn-green {
+    padding: 1rem 2.5rem;
+    border-radius: 3px;
+    border: 1px solid #00D4B8;
+    background-color: #00D4B8;
+    font-family: AvenirNext;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    color: #fff;
+}
+
+.btn-green.btn-large {
+    padding: 1rem 3.5rem;
+}
+
+.btn-green:hover,
+.btn-pink:hover,
+.app-download-form .btn-submit:hover {
+	color: #f1f1f1;
+}
+
+.btn-pink {
+    padding: 1.125rem 2.8125rem;
+    border-radius: 3px;
+    border: 1px solid #FF49F1;
+    background-color: #FF49F1;
+    font-family: AvenirNext;
+    font-size: 1.1875rem;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+    color: #fff;
+}
+
+.btn-pink.btn-large {
+    min-width: 240px;
+    max-width: 100%;
+}
+
+.title {
+    font-family: AvenirNext;
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: normal;
+    color: #212EB3;
+}
+
+.navbar {
+    padding: 2.8125rem 3.4375rem;
+    padding-bottom: 1rem;
+    border: none;
+    box-shadow: none;
+}
+
+.navbar .logo-text {
+    font-family: AvenirNext;
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: normal;
+    color: #fff;
+    display: block;
+    text-align: right;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-family: AvenirNext;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: normal;
+    color: #fff;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #f1f1f1;
+}
+
+.navbar-light .navbar-nav .nav-link.try-btn {
+    width: 124px;
+    border-radius: 5px;
+    background-color: #00D4B8;
+}
+
+#banner {
+    padding: 6.25rem 4rem 9.375rem;
+    position: relative;
+    margin: -2px auto;
+}
+
+.banner-after-bg,
+.work-before-bg,
+.work-after-bg {
+    width: 100%;
+}
+
+#banner h2 {
+    font-family: AvenirNext;
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: normal;
+    color: #fff;
+    margin-bottom: 0;
+    max-width: 460px;
+}
+
+#banner p {
+    font-family: AvenirNext;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: normal;
+    color: #fff;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+#overview {
+    padding: 6.25rem;
+}
+
+#overview .row,
+#how-it-work .row {
+    margin-bottom: 5rem;
+}
+
+#overview h3,
+#how-it-work h3 {
+    max-width: 500px;
+    font-family: AvenirNext;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: normal;
+    color: #2a2a2a;
+    margin-top: 1.875rem;
+    margin-bottom: 1.875rem;
+}
+
+#overview p,
+#how-it-work p {
+    font-family: AvenirNext;
+    font-size: 1.1rem;
+    font-weight: normal;
+    line-height: normal;
+    color: #2a2a2a;
+}
+
+#how-it-work {
+    background: #FF49F1;
+    padding: 4.6875rem;
+    padding-bottom: 0;
+    margin: -2px auto;
+    position: relative;
+}
+
+#how-it-work h2,
+#how-it-work h3,
+#how-it-work p {
+    color: #fff;
+}
+
+/*#how-it-work .img-fluid {
+    border: 2px dashed #fff;
+}
+*/
+#how-it-work .icon-box {
+	min-height: 240px;
+}
+
+#how-it-work .icon-1 {
+	margin-left: 4rem;
+}
+
+#how-it-work .icon-2 {
+	margin-left: 10rem;
+}
+
+#how-it-work .icon-3 {
+	margin-top: 4rem;
+}
+
+#how-it-work .icon-4 {
+	margin-left: 4rem;
+	margin-top: 4rem;
+}
+
+
+.connecting-line {
+    position: absolute;
+    top: 24.67%;
+    left: 0;
+    right: 0;
+    display: block;
+    max-width: 100%;
+    width: 1060px;
+    margin: 0 auto;
+}
+
+#price {
+    padding: 12.5rem 8% 11rem 10%;
+}
+
+#price .title {
+    margin-bottom: 6rem;
+}
+
+.price-box {
+    max-width: 340px;
+    border-radius: 3px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    background-color: #212EB3;
+    margin-top: 5.5rem;
+    padding: 2.75rem 2rem;
+    text-align: center;
+}
+
+.price-box .price-icon {
+/*    width: 116px;*/
+}
+
+.price-plan-name {
+    font-family: AvenirNext;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: normal;
+    color: #fff;
+    margin: 0 0 1.75rem;
+    padding: 1.75rem 0;
+    border-bottom: 1px solid #fff;
+}
+
+.plan-cost {
+    font-family: AvenirNext;
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: normal;
+    color: #fff;
+    margin-bottom: 2.5rem;
+}
+
+.price-box p {
+    font-family: AvenirNext;
+    font-size: 1.125rem;
+    font-weight: normal;
+    line-height: normal;
+    color: #fff;
+    margin-bottom: 3rem;
+}
+
+.price-box .included-text {
+    font-size: 1.375rem;
+    margin-bottom: 1.875rem;
+}
+
+.price-box .plan-tag {
+    font-family: AvenirNext;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: normal;
+    color: #fff;
+    margin-bottom: 2.5rem;
+}
+
+.price-box.active {
+    margin-top: 0;
+    padding-top: 1.875rem;
+    padding-bottom: 5.125rem;
+}
+
+.price-box.active .price-icon {
+    margin-bottom: 2.5rem;
+}
+
+.price-box.active .price-plan-name {
+    font-size: 1.75rem;
+}
+
+.price-box.active .btn-green {
+    margin-top: 1rem;
+    font-size: 1.1875rem;
+}
+
+#contact {
+    padding: 4.375rem 1rem 11.25rem;
+    background: #FF553D;
+    margin: -2px auto;
+}
+
+.app-download-form {
+    max-width: 700px;
+    border-radius: 4px;
+    background-color: #212EB3;
+    text-align: center;
+    margin: 4rem auto 0;
+    padding: 4.5rem 6.25rem;
+}
+
+.app-download-form h2 {
+    font-family: AvenirNext;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: normal;
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 1.75rem;
+}
+
+.app-download-form .form-control {
+    border: none;
+    border-bottom: 1px solid #fff;
+    box-shadow: none;
+    max-width: 300px;
+    margin: 0 auto;
+    color: #6d6b6b;
+    height: 69px;
+    border-radius: 3px;
+    background-color: #ffffff;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 1.25rem;
+}
+
+.form-control:focus {
+    outline: none;
+    box-shadow: none;
+    border-color: inherit;
+}
+
+.form-control::-webkit-input-placeholder {
+    color: #6d6b6b;
+}
+
+.form-control::-moz-input-placeholder {
+    color: #6d6b6b;
+}
+
+.form-control::-ms-input-placeholder {
+    color: #6d6b6b;
+}
+
+.app-download-form .btn-submit {
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    max-width: 154px;
+    height: 69px;
+    border-radius: 3px;
+    border: 1px solid #00D4B8;
+    background-color: #00D4B8;
+    font-family: AvenirNext;
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: normal;
+    color: #ffffff;
+}
+
+.app-download-form p {
+    font-family: AvenirNext;
+    font-size: 1.375rem;
+    font-weight: 600;
+    color: #fff;
+    margin: 3.75rem auto;
+}
+
+.app-download-form h3 {
+    font-family: AvenirNext;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: normal;
+    color: #fff;
+    margin: 0 0 3rem;
+}
+
+.apple-store-icon,
+.google-store-icon {
+    display: inline-block;
+    width: 49.5%;
+}
+
+.apple-store-icon img {
+    float: left;
+    height: 60px;
+}
+
+.google-store-icon img {
+    height: 62px;
+    float: right;
+}
+
+footer {
+    border-radius: 2px;
+    background-color: #1e273c;
+    position: relative;
+    padding: 4.6875rem 0;
+}
+
+.footer-logo {
+    margin-bottom: 1.5rem;
+}
+
+footer p,
+footer a {
+    font-family: AvenirNext;
+    font-size: .75rem;
+    font-weight: normal;
+    line-height: normal;
+    color: #fff;
+}
+
+footer .email-text {
+    font-size: 1.125rem;
+}
+
+footer .email-text strong {
+    font-weight: 600;
+}
+
+@media (max-width: 1170px) {
+	 .price-box .btn-pink,
+    .price-box.active .btn-green {
+        font-size: .875rem;
+        min-width: 100%;
+        padding: .875rem;
+    }
+}
+
+@media (max-width: 992px) {
+	#how-it-work .icon-box {
+		min-height: auto;
+	}
+    .connecting-line {
+        display: none;
+    }
+    .navbar-light .navbar-toggler {
+        border-color: transparent;
+        border-radius: 0;
+        background: transparent;
+		outline: none;
+    }
+    .navbar-light .navbar-toggler-icon {
+/*        background-color: #fff;*/
+background-image:url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+		background-size: 40px;
+    }
+    .navbar-collapse {
+        background-color: #FF553D;
+        position: absolute;
+        top: 100px;
+        right: 3.4375rem;
+        z-index: 1;
+		padding: .5rem 0;
+    }
+	.navbar-light .navbar-nav .nav-link.try-btn {
+		height: auto;
+		background-color: transparent;
+	}
+    #banner h2 {
+        margin-top: 2rem;
+    }
+	#how-it-work .icon-1,
+	#how-it-work .icon-2,
+	#how-it-work .icon-3,
+	#how-it-work .icon-4 {
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0;
+		display: block;
+	}
+    #price {
+        padding: 9rem 1rem;
+    }
+    .price-box {
+        margin-top: 5.5rem;
+        padding: 1.75rem 1.5rem;
+    }
+    .price-plan-name {
+        font-size: 1.125rem;
+        margin: 0 0 1rem;
+        padding: 1rem 0;
+    }
+    .plan-cost {
+        font-size: 1.5rem;
+        margin-bottom: 1.125rem;
+    }
+    .price-box p {
+        font-size: .875rem;
+        margin-bottom: 2rem;
+    }
+    .price-box .included-text {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+    .price-box .plan-tag {
+        font-size: 1.125rem;
+        margin-bottom: 1.5rem;
+    }
+    .price-box.active {
+        padding-bottom: 3.5rem;
+    }
+    .price-box.active .price-icon {
+        margin-bottom: 2rem;
+    }
+    .price-box.active .price-plan-name {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 767px) {
+    html,
+    body {
+        font-size: 13px;
+    }
+    #price .title {
+        margin-bottom: 2.5rem;
+    }
+    .price-box,
+    .price-box.active {
+        margin: 1rem auto;
+    }
+	.app-download-form {
+		padding: 4rem;
+	}
+	.app-download-form .form-control {
+		max-width: 240px;
+	}
+}
+
+@media (max-width: 575px) {
+	.navbar {
+		padding-left: 2rem;
+		padding-right: 2rem;
+	}
+	.navbar-collapse {
+		right: 2rem;
+	}
+	#banner { padding: 3rem 1rem 4rem; }
+	#banner h2 { font-size: 1.75rem; }
+	#banner p { margin-top: 1.5rem; }
+	#overview,#how-it-work,#price { 
+		padding: 9rem 1rem;
+	}
+	
+	#overview .row,
+	#how-it-work .row {
+		margin-bottom: 4rem;
+	}
+	#overview h3, 
+	#how-it-work h3 {
+		font-size: 1.5rem;
+		margin-top: 1.5rem;
+		margin-bottom: 1rem;
+	}
+	#overview p, 
+	#how-it-work p {
+		font-size: 1.125rem;
+	}
+	#overview .row img,
+	#how-it-work .row img {
+		margin-top: 2rem;
+		margin-bottom: 2rem;
+	}
+	.price-box .btn-pink, 
+	.price-box.active .btn-green {
+		font-size: 1.25rem;
+	}
+	#contact {
+		padding-bottom: 6rem;
+	}
+	.app-download-form { 
+		padding: 3rem 1rem;
+	}
+	.app-download-form .form-control {
+		max-width: 100%;
+		margin-bottom: 1.5rem;
+		height: 50px;
+	}
+	.app-download-form .btn-submit {
+		height: 50px;
+	}
+	.apple-store-icon {
+		margin-bottom: 1.75rem;
+	}
+	.apple-store-icon, .google-store-icon {
+		width: 100%;
+	}
+	.apple-store-icon img,
+	.google-store-icon img {
+		float: none;
+	}
+	footer {
+		padding-bottom: 3rem;
+		text-align: center;
+	}
+	footer .email-text {
+		display: inline-block;
+	    margin-bottom: 1.5rem;
+	}
+}
+
+@-moz-document url-prefix() {
+	.title {
+		color: #3500b6;
+	}
+	.app-download-form,
+	.bg-blue,
+	.price-box {
+		background: #3500B6;
+	}
+	#how-it-work,
+	.btn-pink {
+		background: #ff00f1;
+	}
+	#contact {
+		background: #FF281E;
+	}
+}
