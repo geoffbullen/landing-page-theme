@@ -32,7 +32,7 @@ We don't need you to have experience of all the technologies we use, you can lea
 - Strong JS/HTML/CSS
 - Node JS
 - Familiar with one or more of AngularJS, React or Vue
-- Unit and integration testing expewrience
+- Unit and integration testing experience
 - Writing clean, well structured, documented code
 
 ###  Nice to haves
