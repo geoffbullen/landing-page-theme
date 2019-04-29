@@ -6,49 +6,48 @@ menu_title: Mobile Software Developer
 description: |
 ---
 
-Mobile Software Developer
+Junior Software Developer (part-time)
 ====================
 
-### What we're looking for
+### What we’re building
 
-- Someone that is comfortable picking up new technologies fast
-- Someone that cares about delivering a great user experience.   Simplicity over features.
-- Someone that welcomes the unstructured environment and opportunities of an early stage startup
+WallSync bridges the gab between physical face-to-face workshops and your digital tools.  We use smart (and fun) technology like Computer Vision, Augmented Reality and Machine Learning to build low friction experience between physical face to face workshops and your digital tools.
+
+Have a look at [wallsync.net](wallsync.net) or see a [rough 30 sec demo](https://www.wallsync.net/30_sec_demo)
 
 ### Where we're at
 
 WallSync is a startup that has just received funding from a leading Australian startup accelerator and investment fund.  We are now building the team to make the most of this opportunity
 
-### What we’re building
+### What we're looking for
 
-WallSync bridges the gab between physical face-to-face workshops and your digital tools.  We use smart (and fun) technology like Computer Vision, Augmented Reality and Machine Learning to build a frictionless interface between the physical world and your digital tools.
+We don't need you to have experience of all the technologies we use, you can learn those.  We do need someone with strong problem solving skills and good fundamental development practices.
 
-Have a look at [wallsync.net](wallsync.net) and [makemebeta.wallsync.net](makemebeta.wallsync.net)
+- Someone that is comfortable picking up new technologies fast
+- Someone that cares about delivering a great user experience.  Simplicity over features.
+- Someone that welcomes the unstructured environment and opportunities of an early stage startup
 
 ### Skills Required
 
-- Exceptional communications skills
-- 3 yrs+ iOS development, including strong Swift skills
-- Unit and integration testing of mobile apps
-- NodeJS
+- Strong JS/HTML/CSS
+- Node JS
+- Familiar with one or more of AngularJS, React or Vue
+- Unit and integration testing expewrience
 - Writing clean, well structured, documented code
 
 ###  Nice to haves
 
 - AngularJS
-- Nativescript
-- React Native
 - Experience managing AWS environments
-- Computer Vision
-- Machine Learning
+- Computer Vision (opencv)
+- Machine Learning 
 - Augmented Reality
+- Nativescript
 
 This isn’t your typical job.  Have real influence over the development of a great product and company.  Get exposure to a wide range of technologies and areas of product development.  Be there at the beginning of an amazing journey!
 
 ### Ready to Apply?
 
-Send an email to [jobs@wallsync.net](mailto:jobs@wallsync.net?subject=Mobile Developer Role) with the following:
+[Complete this form](https://docs.google.com/forms/d/1fghhdVDLMWTXp8fb8SlRoZUpbLa4zrqzMWuDNG0-73E/edit) 
 
-- Links to any previous work that will wow us
-- A copy of your short resume
-- Any questions for us
+Any questions?  Please email jobs@wallsync.net
