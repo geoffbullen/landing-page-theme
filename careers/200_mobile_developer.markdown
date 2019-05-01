@@ -48,6 +48,6 @@ This isn’t your typical job.  Have real influence over the development of a gr
 
 ### Ready to Apply?
 
-[Complete this form](https://docs.google.com/forms/d/1fghhdVDLMWTXp8fb8SlRoZUpbLa4zrqzMWuDNG0-73E/edit) 
+[Complete this form](https://docs.google.com/forms/d/1fghhdVDLMWTXp8fb8SlRoZUpbLa4zrqzMWuDNG0-73E) 
 
 Any questions?  Please email jobs@wallsync.net
