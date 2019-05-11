@@ -571,6 +571,13 @@ footer .email-text strong {
 }
 
 @media (max-width: 575px) {
+    .embed-short-video-container {
+        top:500;
+        width: 350px;
+        height: 350px;
+        border-radius: 50%;
+        -webkit-mask-image: -webkit-radial-gradient(circle, white 100%, black 100%);
+    }
     .navbar {
         padding-left: 2rem;
         padding-right: 2rem;
