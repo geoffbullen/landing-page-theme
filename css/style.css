@@ -69,6 +69,7 @@ a, a:hover {
 
 
 .embed-short-video-container {
+    display: inline-block;
     top:500;
     width: 500px;
     height: 500px;
@@ -572,6 +573,7 @@ footer .email-text strong {
 
 @media (max-width: 575px) {
     .embed-short-video-container {
+        display: inline-block;
         top:500;
         width: 320px;
         height: 320px;
