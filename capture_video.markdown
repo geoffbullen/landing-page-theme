@@ -16,7 +16,7 @@ description: |
             aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-            <a class="navbar-brand" href="/"><img src="images/small_logo_dark_2.png" class="img-fluid"></a> 
+            <a class="navbar-brand" href="/"><img src="images/Logo - Dark 2.png" class="img-fluid"></a> 
         <div class="collapse navbar-collapse" id="navbarToggler">
             <ul class="navbar-nav ml-lg-auto">
                 <li class="nav-item">
