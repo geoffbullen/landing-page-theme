@@ -11,7 +11,7 @@ description: |
 <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 <link href="css/style.css" rel="stylesheet" type="text/css" />
 <div style="background-color:#212EB3;">
- <nav class="navbar navbar-expand-lg navbar-light align-items-start" style="padding: 0.8125rem 1.4375rem;background-color:transparent">
+ <nav class="navbar navbar-expand-lg navbar-light align-items-start" style="padding: 2.8125rem 3.4375rem;background-color:transparent">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
             aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -44,10 +44,11 @@ description: |
 
 <div class="center-block text-center">
 
-<video style="outline:none; width:100%; height:100%;margin-top: -20px" class="embed-video" id="video1" muted playsinline autoplay preload="none" loop>
+<video style="outline:none; width:80%; height:80%;margin-top: 20px" class="embed-video" id="video1" muted playsinline autoplay preload="none" loop>
     <source src="assets/video/hero_with_text.mp4" type="video/mp4" >
 </video>
 </div>
+
 <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/5698435.js"></script>
 
 
