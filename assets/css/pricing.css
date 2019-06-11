@@ -404,5 +404,5 @@ footer .email-text strong {
     }
 } 
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {...}
+/*Added for safari grid orientattion problem in bootstrap v4.0*/
+.row:before, .row:after {display: none !important;}
