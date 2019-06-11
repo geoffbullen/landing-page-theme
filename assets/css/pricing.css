@@ -1,42 +1,6 @@
 .bg-blue{
     background: #212EB3;
 }
-.navbar {
-    padding: 2.8125rem 3.4375rem;
-    border-radius:0px;
-    box-shadow: none;
-    margin-bottom:0px;
-    padding-bottom: 5rem 
-}
-
-.navbar .logo-text {
-    font-family: AvenirNext;
-    font-size: 1.125rem;
-    font-weight: 500;
-    line-height: normal;
-    color: #fff;
-    display: block;
-    text-align: right;
-}
-
-.navbar-light .navbar-nav .nav-link {
-    font-family: AvenirNext;
-    font-size: 1.125rem;
-    font-weight: 400;
-    line-height: normal;
-    color: #fff;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-}
-
-.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
-    color: #f1f1f1;
-}
-
-.navbar-light .navbar-nav .nav-link.try-btn {
-    border-radius: 5px;
-    background-color: #00D4B8;
-}
 .main-heading{
     text-align: center;
     font-size:48px;
@@ -58,6 +22,8 @@
 }
 .monthBtn{
     margin-top:80px;
+    border:1px solid;
+    border-color: #fff;
     border-radius: 20px 0px 0px 20px;
     height: 40px;
     width:135px;
@@ -67,6 +33,7 @@
 .monthBtn-inactive{
     background-color: transparent;
     color:#fff;
+    border:1px solid;
 }
 .annualBtn{
     margin-top:80px;
@@ -76,10 +43,13 @@
     float:left;
     font-size:14px;
     background-color:#fff;
+    border:1px solid;
+    border-color: #fff;
 }
 .annualBtn-inactive{
     background-color: transparent;
     color:#fff;
+    border:1px solid;
 }
 .underBtntext{
     font-size:16px;
@@ -146,6 +116,7 @@ hr{
     height: 56px;
     border-radius:3px;
     float:right;
+    border:1px solid;
 }
 .buyBtn{
     color:#fff;
@@ -156,6 +127,7 @@ hr{
     height: 56px;
     border-radius:3px;
     float:left;
+    border:1px solid;
 }
 .price-text2{
     height: 226px;
@@ -189,6 +161,7 @@ hr{
     height: 56px;
     border-radius:3px;
     float:right;
+    border:1px solid;
 }
 .buyBtn-card2{
     color:#fff;
@@ -199,6 +172,7 @@ hr{
     height: 56px;
     border-radius:3px;
     float:left;
+    border:1px solid;
 }
 .price-text3{
     height: 190px;
@@ -238,6 +212,7 @@ hr{
     text-align:center;
     margin-right: auto;
     margin-left: auto;
+    border:1px solid;
 }
 .banner-after-bg {
     width: 100%;
@@ -266,6 +241,7 @@ hr{
     height: 56px;
     border-radius:3px;
     margin-top: 3%;
+    border:1px solid;
 }
 /*FOOTER*/
 footer {
@@ -419,6 +395,12 @@ footer .email-text strong {
     }
     .base-text h2 {
         margin-top: 5%;
+    }
+    .tryBtn-card2{
+        float:right;
+    }
+    .buyBtn-card2{
+        float:left;
     }
 } 
 

@@ -126,6 +126,7 @@ title: pricing
     </div>
 </section>
 <div id="error-message"></div>
+<script src="https://js.stripe.com/v3"></script>
  <script type="text/javascript">
     window.onload = function() {
        document.getElementById("annualbtn").classList.remove("annualBtn-inactive");
