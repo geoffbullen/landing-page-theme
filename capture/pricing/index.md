@@ -47,10 +47,10 @@ title: pricing
                     <h5>Sync to Trello</h5>
                 </div>
                 <div class="col-6 col-md-12 col-lg-6">
-                    <button type="button" class="tryBtn">Try</button>
+                    <button type="button" class="tryBtn" >Try</button>
                 </div>
                 <div class="col-6 col-md-12 col-lg-6" >
-                    <button type="button" class="buyBtn">Buy</button>
+                    <button type="button" class="buyBtn" id="liteBuyBtn">Buy</button>
                 </div>
             </div>
         </div>
@@ -84,7 +84,7 @@ title: pricing
                     <button type="button" class="tryBtn-card2">Try</button>
                 </div>
                 <div class="col-6 col-md-12 col-lg-6" >
-                    <button type="button" class="buyBtn-card2">Buy</button>
+                    <button type="button" class="buyBtn-card2" id="proBuyBtn">Buy</button>
                 </div>
             </div>
         </div>
@@ -125,25 +125,81 @@ title: pricing
         </div>
     </div>
 </section>
+<div id="error-message"></div>
  <script type="text/javascript">
     window.onload = function() {
        document.getElementById("annualbtn").classList.remove("annualBtn-inactive");
        document.getElementById("monthbtn").classList.add("monthBtn-inactive");  
     }
+    var stripe = Stripe('pk_test_eBAjT4DvCokUwfzvtuKTzWQw00M2bwrQPC');
     var p1=document.getElementById("price1");
     var p2=document.getElementById("price2");
+    var probuy=document.getElementById("proBuyBtn");
+    var litebuy=document.getElementById("liteBuyBtn");
     function monthlyPrice(){
        document.getElementById("annualbtn").classList.add("annualBtn-inactive");
        document.getElementById("monthbtn").classList.remove("monthBtn-inactive");
        p1.innerHTML = "$10";
        p2.innerHTML= "$20";
+       probuy.addEventListener('click', function () {
+        stripe.redirectToCheckout({
+        items: [{plan: 'plan_F8RsetoDq6Q4nq', quantity: 1}],
+        successUrl: 'https://www.wallsync.net/success',
+        cancelUrl: 'https://www.wallsync.net/canceled',
+        })
+        .then(function (result) {
+            if (result.error) {
+                var displayError = document.getElementById('error-message');
+                displayError.textContent = result.error.message;
+            }
+            });
+            });
+        litebuy.addEventListener('click', function () {
+        stripe.redirectToCheckout({
+        items: [{plan: 'plan_FEX0FxGdGWRdWY', quantity: 1}],
+        successUrl: 'https://www.wallsync.net/success',
+        cancelUrl: 'https://www.wallsync.net/canceled',
+        })
+        .then(function (result) {
+        if (result.error) {
+            var displayError = document.getElementById('error-message');
+            displayError.textContent = result.error.message;
+        }
+        });
+        });
     }
     function annualPrice(){
        document.getElementById("annualbtn").classList.remove("annualBtn-inactive");
        document.getElementById("monthbtn").classList.add("monthBtn-inactive"); 
        p1.innerHTML = "$6";
        p2.innerHTML= "$14"; 
-   }
+       probuy.addEventListener('click', function () {
+        stripe.redirectToCheckout({
+        items: [{plan: 'plan_FEWXJC7nRYk0d0', quantity: 1}],
+        successUrl: 'https://www.wallsync.net/success',
+        cancelUrl: 'https://www.wallsync.net/canceled',
+        })
+        .then(function (result) {
+        if (result.error) {
+            var displayError = document.getElementById('error-message');
+            displayError.textContent = result.error.message;
+        }
+        });
+        });
+        litebuy.addEventListener('click', function () {
+        stripe.redirectToCheckout({
+        items: [{plan: 'plan_FEX2EyV5Cp9aL6', quantity: 1}],
+        successUrl: 'https://www.wallsync.net/success',
+        cancelUrl: 'https://www.wallsync.net/canceled',
+        })
+        .then(function (result) {
+        if (result.error) {
+            var displayError = document.getElementById('error-message');
+            displayError.textContent = result.error.message;
+        }
+        });
+        });
+    }
  </script>
 
 
