@@ -1,0 +1,427 @@
+.bg-blue{
+    background: #212EB3;
+}
+.navbar {
+    padding: 2.8125rem 3.4375rem;
+    border-radius:0px;
+    box-shadow: none;
+    margin-bottom:0px;
+    padding-bottom: 5rem 
+}
+
+.navbar .logo-text {
+    font-family: AvenirNext;
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: normal;
+    color: #fff;
+    display: block;
+    text-align: right;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-family: AvenirNext;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: normal;
+    color: #fff;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #f1f1f1;
+}
+
+.navbar-light .navbar-nav .nav-link.try-btn {
+    /* width: 124px; */
+    border-radius: 5px;
+    background-color: #00D4B8;
+}
+.main-heading{
+    text-align: center;
+    font-size:48px;
+    color: #f1f1f1;
+    margin-bottom:50px;
+}
+.header-text{
+    font-size:28px;
+    text-align: center;
+    color: #f1f1f1;
+}
+#btn1{
+    margin-right:0;
+    padding-right:0px;
+}
+#btn2{
+    margin-left:0;
+    padding-left:0px;
+}
+.monthBtn{
+    margin-top:80px;
+    border-radius: 20px 0px 0px 20px;
+    height: 40px;
+    width:135px;
+    float:right;
+    font-size:14px;
+}
+.monthBtn-inactive{
+    background-color: transparent;
+    color:#fff;
+}
+.annualBtn{
+    margin-top:80px;
+    border-radius: 0px 20px 20px 0px;
+    height: 40px;
+    width:135px;
+    float:left;
+    font-size:14px;
+    background-color:#fff;
+}
+.annualBtn-inactive{
+    background-color: transparent;
+    color:#fff;
+}
+.underBtntext{
+    font-size:16px;
+    color:#f1f1f1;
+    text-align: center;
+    margin-top: 16px;
+}
+.cards{
+    text-align:center;
+    color:#f1f1f1;
+}
+#card1{
+    margin-top: 3%;
+}
+.card-heading{
+    font-size:48px;
+}
+.price-text{
+    height: 190px;
+    background-color:rgb( 234, 114, 242);
+}
+.price-text h1{
+   position: relative;
+   margin-top: 20%;
+    font-size:66px;
+    display: inline-block;
+}
+.price-text h5{
+    font-size:16px;
+    display: inline-block;
+}
+.price-text p{
+    font-size:16px;
+    font-weight: 500;
+}
+.price-text-second{
+    background-color: #fff;
+    color:#000;
+    height: 380px;
+    color:rgb(113, 113, 113);
+}
+.price-text-second h3{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+.price-text-second h4{
+    margin-bottom:18px;
+    font-size: 18px;
+}
+.price-text-second h5{
+    margin-top: 20px;
+    font-size: 18px;
+}
+hr{
+    color:rgb(113, 113, 113);
+}
+.tryBtn{
+    color:rgb(234 ,114 ,242);
+    border-color:rgb(234 ,114 ,242);
+    background-color: #fff;
+    font-size: 18px;
+    width:110px;
+    height: 56px;
+    border-radius:3px;
+    float:right;
+}
+.buyBtn{
+    color:#fff;
+    border-color:rgb(234 ,114 ,242);
+    background-color:rgb(234 ,114 ,242);
+    font-size: 18px;
+    width:110px;
+    height: 56px;
+    border-radius:3px;
+    float:left;
+}
+.price-text2{
+    height: 226px;
+    background-color:rgb( 37,211, 179);
+}
+.price-text2 h2{
+    font-size:18px;
+    font-weight: bold;
+    margin-top: 22px;
+}
+.price-text2 h1{
+    position: relative;
+    margin-top: 10%;
+     font-size:66px;
+     display: inline-block;
+ }
+ .price-text2 h5{
+     font-size:16px;
+     display: inline-block;
+ }
+ .price-text2 p{
+    font-size:16px;
+    font-weight: 500;
+}
+.tryBtn-card2{
+    color:rgb( 37,211, 179);
+    border-color:rgb( 37,211, 179);
+    background-color: #fff;
+    font-size: 18px;
+    width:110px;
+    height: 56px;
+    border-radius:3px;
+    float:right;
+}
+.buyBtn-card2{
+    color:#fff;
+    border-color:rgb( 37,211, 179);
+    background-color:rgb( 37,211, 179);
+    font-size: 18px;
+    width:110px;
+    height: 56px;
+    border-radius:3px;
+    float:left;
+}
+.price-text3{
+    height: 190px;
+    background-color:rgb( 234, 114, 242);
+}
+.price-text3 h1{
+    font-size:44px;
+    margin-top:27%;
+}
+.price-text3 p{
+    font-size:16px;
+    margin-top:5%;
+    font-weight: 500;
+}
+.price-text-second-card3{
+    background-color: #fff;
+    color:#000;
+    height: 380px;
+    color:rgb(113, 113, 113);
+}
+.price-text-second-card3 h3{
+    text-align:center;
+    font-size:18px;
+    margin-top: 50%;
+    width:230px;
+    display: inline-block;
+}
+.ContactBtn{
+    color:rgb(234 ,114 ,242);
+    border-color:rgb(234 ,114 ,242);
+    background-color: #fff;
+    font-size: 18px;
+    width:209px;
+    height: 56px;
+    border-radius:3px;
+    display:block;
+    text-align:center;
+    margin-right: auto;
+    margin-left: auto;
+}
+.banner-after-bg {
+    width: 100%;
+}
+.base-text{
+    text-align:center;
+    display:block;
+    margin-top: 5%;
+}
+.base-text h1{
+    font-size:36px;
+    color:rgb(37, 50, 211);
+    font-weight: 500;
+}
+.base-text h2{
+    font-size:28px;
+    color:rgb(113,113,113);
+    margin-top:5%;
+}
+.TrialBtn{
+    color:#fff;
+    border-color:rgb(234 ,114 ,242);
+    background-color:rgb(234 ,114 ,242);
+    font-size: 18px;
+    width:209px;
+    height: 56px;
+    border-radius:3px;
+    margin-top: 3%;
+}
+/*FOOTER*/
+footer {
+    margin-top: 5%;
+    border-radius: 2px;
+    background-color: #1e273c;
+    position: relative;
+    padding: 4.6875rem 0;
+}
+
+.footer-logo {
+    margin-bottom: 1.5rem;
+}
+
+footer p, footer a {
+    font-family: AvenirNext;
+    font-size: .75rem;
+    font-weight: normal;
+    line-height: normal;
+    color: #fff;
+}
+
+footer .email-text {
+    font-size: 1.125rem;
+}
+
+footer .email-text strong {
+    font-weight: 600;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .cards{
+        margin-top:10%;
+    }
+    #card1{
+        margin-top:10%;
+    }
+    .price-text{
+        height: 140px;
+    }
+    .price-text h1{
+       margin-top: 5%;
+        font-size:46px;
+        display: inline-block;
+    }
+    .price-text-second{
+        height: 300px;
+    }
+    .price-text-second h3{
+        font-size: 16px;
+    }
+    .price-text-second h4{
+        font-size: 16px;
+    }
+    .price-text-second h5{
+        font-size: 16px;
+    }
+    #pricecard2{
+        height: 380px;
+    }
+    .price-text2{
+        height: 180px;
+    }
+    .price-text2 h2{
+        font-size:16px;
+        margin-top: 5%;
+    }
+    .price-text2 h1{
+        margin-top: 10%;
+        font-size:44px;
+     }
+     .price-text3{
+        height: 140px;
+    }
+    .price-text3 h1{
+        font-size:44px;
+        margin-top:5%;
+    }
+    .price-text-second-card3{
+        background-color: #fff;
+        color:#000;
+        height: 380px;
+        color:rgb(113, 113, 113);
+    }
+    .price-text-second-card3 h3{
+        font-size:16px;
+        margin-top: 36%;
+    }
+    .base-text{
+        margin-top: 20%;
+    }
+    .base-text h1 {
+        font-size: 30px;
+    }
+    .base-text h2 {
+        font-size: 23px;
+        margin-top: 10%;
+    }
+    .TrialBtn {
+        margin-top: 10%;
+    }
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .price-text-second-card3 h3 {
+        margin-top: 38%;
+    }
+    .base-text {
+        margin-top: 15%;
+    }
+    .base-text h2 {
+        margin-top: 14%;
+    }
+    .TrialBtn {
+        margin-top: 5%;
+    }
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .tryBtn{
+        float:none;
+    }
+    .buyBtn{
+        float:none;
+    }
+    #pricecard2{
+        height: 450px;
+    }
+    .tryBtn-card2{
+        float:none;
+        margin-top:5%;
+    }
+    .buyBtn-card2{
+        float:none;
+        margin-top: 5%;
+    }
+    .price-text-second-card3 h3 {
+        width: fit-content;
+    }
+    .ContactBtn {
+        width: 140px;
+    }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .base-text {
+        margin-top: 5%;
+    }
+    .base-text h2 {
+        margin-top: 5%;
+    }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}
