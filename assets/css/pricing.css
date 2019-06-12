@@ -1,3 +1,4 @@
+
 .bg-blue{
     background: #212EB3;
 }
@@ -6,11 +7,13 @@
     font-size:48px;
     color: #f1f1f1;
     margin-bottom:50px;
+    font-family: 'AvenirNext', sans-serif;
 }
 .header-text{
     font-size:28px;
     text-align: center;
     color: #f1f1f1;
+    font-family: 'AvenirNext', sans-serif;
 }
 #btn1{
     margin-right:0;
@@ -29,6 +32,7 @@
     width:135px;
     float:right;
     font-size:14px;
+    font-family: 'AvenirNext', sans-serif;
 }
 .monthBtn-inactive{
     background-color: transparent;
@@ -45,6 +49,7 @@
     background-color:#fff;
     border:1px solid;
     border-color: #fff;
+    font-family: 'AvenirNext', sans-serif;
 }
 .annualBtn-inactive{
     background-color: transparent;
@@ -56,13 +61,12 @@
     color:#f1f1f1;
     text-align: center;
     margin-top: 16px;
+    font-family: 'AvenirNext', sans-serif;
 }
 .cards{
     text-align:center;
     color:#f1f1f1;
-}
-#card1{
-    margin-top: 3%;
+    font-family: 'AvenirNext', sans-serif;
 }
 .card-heading{
     font-size:48px;
@@ -95,39 +99,32 @@
     margin-top: 30px;
     margin-bottom: 30px;
     font-size: 18px;
+    font-weight: 900;
 }
 .price-text-second h4{
     margin-bottom:18px;
-    font-size: 18px;
+    font-size: 16px;
 }
 .price-text-second h5{
     margin-top: 20px;
-    font-size: 18px;
+    font-size: 16px;
 }
 hr{
     color:rgb(113, 113, 113);
-}
-.tryBtn{
-    color:rgb(234 ,114 ,242);
-    border-color:rgb(234 ,114 ,242);
-    background-color: #fff;
-    font-size: 18px;
-    width:110px;
-    height: 56px;
-    border-radius:3px;
-    float:right;
-    border:1px solid;
 }
 .buyBtn{
     color:#fff;
     border-color:rgb(234 ,114 ,242);
     background-color:rgb(234 ,114 ,242);
     font-size: 18px;
-    width:110px;
+    width:140px;
     height: 56px;
     border-radius:3px;
-    float:left;
     border:1px solid;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 42%;
 }
 .price-text2{
     height: 226px;
@@ -152,27 +149,18 @@ hr{
     font-size:16px;
     font-weight: 500;
 }
-.tryBtn-card2{
-    color:rgb( 37,211, 179);
-    border-color:rgb( 37,211, 179);
-    background-color: #fff;
-    font-size: 18px;
-    width:110px;
-    height: 56px;
-    border-radius:3px;
-    float:right;
-    border:1px solid;
-}
 .buyBtn-card2{
     color:#fff;
     border-color:rgb( 37,211, 179);
     background-color:rgb( 37,211, 179);
     font-size: 18px;
-    width:110px;
+    width:140px;
     height: 56px;
     border-radius:3px;
-    float:left;
     border:1px solid;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 .price-text3{
     height: 190px;
@@ -221,6 +209,7 @@ hr{
     text-align:center;
     display:block;
     margin-top: 5%;
+    font-family: 'AvenirNext', sans-serif;
 }
 .base-text h1{
     font-size:36px;
@@ -250,29 +239,28 @@ footer {
     background-color: #1e273c;
     position: relative;
     padding: 4.6875rem 0;
-}
-
-.footer-logo {
-    margin-bottom: 1.5rem;
+    text-align: center;
 }
 
 footer p, footer a {
     font-family: AvenirNext;
-    font-size: .75rem;
+    font-size: 16px;
     font-weight: normal;
     line-height: normal;
     color: #fff;
 }
-
-footer .email-text {
-    font-size: 1.125rem;
+.footer-text{
+    padding: 10px;
+}
+.footer-logo{
+    margin-bottom: 5%;
 }
 
-footer .email-text strong {
-    font-weight: 600;
-}
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+    #card-box{
+        justify-content: center;
+    }
     .cards{
         margin-top:10%;
     }
@@ -298,6 +286,9 @@ footer .email-text strong {
     }
     .price-text-second h5{
         font-size: 16px;
+    }
+    .buyBtn{
+        margin-top: 0%;
     }
     #pricecard2{
         height: 380px;
@@ -347,6 +338,9 @@ footer .email-text strong {
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+    #card-box{
+        justify-content: center;
+    }
     .price-text-second-card3 h3 {
         margin-top: 38%;
     }
@@ -363,25 +357,30 @@ footer .email-text strong {
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    .tryBtn{
-        float:none;
+    #card-box{
+        justify-content: none;
+        margin-top: 8%;
+    }
+    .price-text{
+        height: 226px;
+    }
+    .price-text-second {
+        height: 450px;
     }
     .buyBtn{
-        float:none;
+        margin-top: 42%;
     }
     #pricecard2{
         height: 450px;
     }
-    .tryBtn-card2{
-        float:none;
-        margin-top:5%;
-    }
     .buyBtn-card2{
-        float:none;
         margin-top: 5%;
     }
     .price-text-second-card3 h3 {
         width: fit-content;
+    }
+    #card3{
+        margin-top: 8%;
     }
     .ContactBtn {
         width: 140px;
@@ -390,17 +389,26 @@ footer .email-text strong {
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+    #card1{
+        margin-top: 3%;
+    }
+    #card3{
+        margin-top: 3%;
+    }
+    .price-text{
+        height: 190px;
+    }
+    .price-text-second {
+        height: 380px;
+    }
+    .buyBtn{
+        margin-top: 0%;
+    }
     .base-text {
         margin-top: 5%;
     }
     .base-text h2 {
         margin-top: 5%;
-    }
-    .tryBtn-card2{
-        float:right;
-    }
-    .buyBtn-card2{
-        float:left;
     }
 } 
 
