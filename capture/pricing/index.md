@@ -100,7 +100,7 @@ title: pricing
                     <h3>Get in touch to discuss how we can help connect your team.</h3>
                 </div>
                 <div class="col-md-12">
-                    <button type="button" class="ContactBtn">Contact Us</button>
+                    <button type="button" class="ContactBtn"><a class="contact-team-btn" href="mailto:magic@wallsync.net">Contact Us</a></button>
                 </div>
             </div>
         </div>

@@ -202,6 +202,13 @@ hr{
     margin-left: auto;
     border:1px solid;
 }
+.contact-team-btn{
+    color:rgb(234 ,114 ,242);
+}
+.contact-team-btn:hover{
+    color:rgb(234 ,114 ,242);
+    text-decoration: none;
+}
 .banner-after-bg {
     width: 100%;
 }
