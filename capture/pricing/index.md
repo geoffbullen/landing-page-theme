@@ -132,15 +132,17 @@ title: pricing
             CallStripe(litebuyannual);
         }); 
     }
-    var stripe = Stripe('pk_test_eBAjT4DvCokUwfzvtuKTzWQw00M2bwrQPC');
+    //test key
+    //var stripe = Stripe('pk_test_eBAjT4DvCokUwfzvtuKTzWQw00M2bwrQPC');
+    var stripe = Stripe('pk_live_fbBE1G1aI6nXlM8qMynRRlco006FxAxZ5O');
     var pricelite=document.getElementById("price1");
     var pricepro=document.getElementById("price2");
     var probuy=document.getElementById("proBuyBtn");
     var litebuy=document.getElementById("liteBuyBtn");
-    var probuyannual="plan_FEWXJC7nRYk0d0";
-    var litebuyannual = "plan_FEX2EyV5Cp9aL6";
-    var litebuymonthly="plan_FEX0FxGdGWRdWY";
-    var probuymonthly="plan_F8RsetoDq6Q4nq";
+    var probuyannual="plan_FG0r5zPJohwZKY";
+    var probuymonthly="plan_FG0r4oSpDrSTlc";
+    var litebuyannual = "plan_FG0tJWuvSl7lXp";
+    var litebuymonthly="plan_FG0sSWeImScIco";
     function monthlyPrice(){
        document.getElementById("annualbtn").classList.add("annualBtn-inactive");
        document.getElementById("monthbtn").classList.remove("monthBtn-inactive");
