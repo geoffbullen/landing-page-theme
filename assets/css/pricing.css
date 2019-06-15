@@ -1,0 +1,423 @@
+
+.bg-blue{
+    background: #212EB3;
+}
+.main-heading{
+    text-align: center;
+    font-size:48px;
+    color: #f1f1f1;
+    margin-bottom:50px;
+    font-family: 'AvenirNext', sans-serif;
+}
+.header-text{
+    font-size:28px;
+    text-align: center;
+    color: #f1f1f1;
+    font-family: 'AvenirNext', sans-serif;
+}
+#btn1{
+    margin-right:0;
+    padding-right:0px;
+}
+#btn2{
+    margin-left:0;
+    padding-left:0px;
+}
+.monthBtn{
+    margin-top:80px;
+    border:1px solid;
+    border-color: #fff;
+    border-radius: 20px 0px 0px 20px;
+    height: 40px;
+    width:135px;
+    float:right;
+    font-size:14px;
+    font-family: 'AvenirNext', sans-serif;
+}
+.monthBtn-inactive{
+    background-color: transparent;
+    color:#fff;
+    border:1px solid;
+}
+.annualBtn{
+    margin-top:80px;
+    border-radius: 0px 20px 20px 0px;
+    height: 40px;
+    width:135px;
+    float:left;
+    font-size:14px;
+    background-color:#fff;
+    border:1px solid;
+    border-color: #fff;
+    font-family: 'AvenirNext', sans-serif;
+}
+.annualBtn-inactive{
+    background-color: transparent;
+    color:#fff;
+    border:1px solid;
+}
+.underBtntext{
+    font-size:16px;
+    color:#f1f1f1;
+    text-align: center;
+    margin-top: 16px;
+    font-family: 'AvenirNext', sans-serif;
+}
+.cards{
+    text-align:center;
+    color:#f1f1f1;
+    font-family: 'AvenirNext', sans-serif;
+}
+.card-heading{
+    font-size:48px;
+}
+.price-text{
+    height: 190px;
+    background-color:rgb( 234, 114, 242);
+}
+.price-text h1{
+   position: relative;
+   margin-top: 20%;
+    font-size:66px;
+    display: inline-block;
+}
+.price-text h5{
+    font-size:16px;
+    display: inline-block;
+}
+.price-text p{
+    font-size:16px;
+    font-weight: 500;
+}
+.price-text-second{
+    background-color: #fff;
+    color:#000;
+    height: 380px;
+    color:rgb(113, 113, 113);
+}
+.price-text-second h3{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: 900;
+}
+.price-text-second h4{
+    margin-bottom:18px;
+    font-size: 16px;
+}
+.price-text-second h5{
+    margin-top: 20px;
+    font-size: 16px;
+}
+hr{
+    color:rgb(113, 113, 113);
+}
+.buyBtn{
+    color:#fff;
+    border-color:rgb(234 ,114 ,242);
+    background-color:rgb(234 ,114 ,242);
+    font-size: 18px;
+    width:140px;
+    height: 56px;
+    border-radius:3px;
+    border:1px solid;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 42%;
+}
+.price-text2{
+    height: 226px;
+    background-color:rgb( 37,211, 179);
+}
+.price-text2 h2{
+    font-size:18px;
+    font-weight: bold;
+    margin-top: 22px;
+}
+.price-text2 h1{
+    position: relative;
+    margin-top: 10%;
+     font-size:66px;
+     display: inline-block;
+ }
+ .price-text2 h5{
+     font-size:16px;
+     display: inline-block;
+ }
+ .price-text2 p{
+    font-size:16px;
+    font-weight: 500;
+}
+.buyBtn-card2{
+    color:#fff;
+    border-color:rgb( 37,211, 179);
+    background-color:rgb( 37,211, 179);
+    font-size: 18px;
+    width:140px;
+    height: 56px;
+    border-radius:3px;
+    border:1px solid;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.price-text3{
+    height: 190px;
+    background-color:rgb( 234, 114, 242);
+}
+.price-text3 h1{
+    font-size:44px;
+    margin-top:27%;
+}
+.price-text3 p{
+    font-size:16px;
+    margin-top:5%;
+    font-weight: 500;
+}
+.price-text-second-card3{
+    background-color: #fff;
+    color:#000;
+    height: 380px;
+    color:rgb(113, 113, 113);
+}
+.price-text-second-card3 h3{
+    text-align:center;
+    font-size:18px;
+    margin-top: 50%;
+    width:230px;
+    display: inline-block;
+}
+.ContactBtn{
+    color:rgb(234 ,114 ,242);
+    border-color:rgb(234 ,114 ,242);
+    background-color: #fff;
+    font-size: 18px;
+    width:209px;
+    height: 56px;
+    border-radius:3px;
+    display:block;
+    text-align:center;
+    margin-right: auto;
+    margin-left: auto;
+    border:1px solid;
+}
+.contact-team-btn{
+    color:rgb(234 ,114 ,242);
+}
+.contact-team-btn:hover{
+    color:rgb(234 ,114 ,242);
+    text-decoration: none;
+}
+.banner-after-bg {
+    width: 100%;
+}
+.base-text{
+    text-align:center;
+    display:block;
+    margin-top: 5%;
+    font-family: 'AvenirNext', sans-serif;
+}
+.base-text h1{
+    font-size:36px;
+    color:rgb(37, 50, 211);
+    font-weight: 500;
+}
+.base-text h2{
+    font-size:28px;
+    color:rgb(113,113,113);
+    margin-top:5%;
+}
+.TrialBtn{
+    color:#fff;
+    border-color:rgb(234 ,114 ,242);
+    background-color:rgb(234 ,114 ,242);
+    font-size: 18px;
+    width:209px;
+    height: 56px;
+    border-radius:3px;
+    margin-top: 3%;
+    border:1px solid;
+}
+/*FOOTER*/
+footer {
+    margin-top: 5%;
+    border-radius: 2px;
+    background-color: #1e273c;
+    position: relative;
+    padding: 4.6875rem 0;
+    text-align: center;
+}
+
+footer p, footer a {
+    font-family: AvenirNext;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: normal;
+    color: #fff;
+}
+.footer-text{
+    padding: 10px;
+}
+.footer-logo{
+    margin-bottom: 5%;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #card-box{
+        justify-content: center;
+    }
+    .cards{
+        margin-top:10%;
+    }
+    #card1{
+        margin-top:10%;
+    }
+    .price-text{
+        height: 140px;
+    }
+    .price-text h1{
+       margin-top: 5%;
+        font-size:46px;
+        display: inline-block;
+    }
+    .price-text-second{
+        height: 300px;
+    }
+    .price-text-second h3{
+        font-size: 16px;
+    }
+    .price-text-second h4{
+        font-size: 16px;
+    }
+    .price-text-second h5{
+        font-size: 16px;
+    }
+    .buyBtn{
+        margin-top: 0%;
+    }
+    #pricecard2{
+        height: 380px;
+    }
+    .price-text2{
+        height: 180px;
+    }
+    .price-text2 h2{
+        font-size:16px;
+        margin-top: 5%;
+    }
+    .price-text2 h1{
+        margin-top: 10%;
+        font-size:44px;
+     }
+     .price-text3{
+        height: 140px;
+    }
+    .price-text3 h1{
+        font-size:44px;
+        margin-top:5%;
+    }
+    .price-text-second-card3{
+        background-color: #fff;
+        color:#000;
+        height: 380px;
+        color:rgb(113, 113, 113);
+    }
+    .price-text-second-card3 h3{
+        font-size:16px;
+        margin-top: 36%;
+    }
+    .base-text{
+        margin-top: 20%;
+    }
+    .base-text h1 {
+        font-size: 30px;
+    }
+    .base-text h2 {
+        font-size: 23px;
+        margin-top: 10%;
+    }
+    .TrialBtn {
+        margin-top: 10%;
+    }
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    #card-box{
+        justify-content: center;
+    }
+    .price-text-second-card3 h3 {
+        margin-top: 38%;
+    }
+    .base-text {
+        margin-top: 15%;
+    }
+    .base-text h2 {
+        margin-top: 14%;
+    }
+    .TrialBtn {
+        margin-top: 5%;
+    }
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #card-box{
+        justify-content: none;
+        margin-top: 8%;
+    }
+    .price-text{
+        height: 226px;
+    }
+    .price-text-second {
+        height: 450px;
+    }
+    .buyBtn{
+        margin-top: 42%;
+    }
+    #pricecard2{
+        height: 450px;
+    }
+    .buyBtn-card2{
+        margin-top: 5%;
+    }
+    .price-text-second-card3 h3 {
+        width: fit-content;
+    }
+    #card3{
+        margin-top: 8%;
+    }
+    .ContactBtn {
+        width: 140px;
+    }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    #card1{
+        margin-top: 3%;
+    }
+    #card3{
+        margin-top: 3%;
+    }
+    .price-text{
+        height: 190px;
+    }
+    .price-text-second {
+        height: 380px;
+    }
+    .buyBtn{
+        margin-top: 0%;
+    }
+    .base-text {
+        margin-top: 5%;
+    }
+    .base-text h2 {
+        margin-top: 5%;
+    }
+} 
+
+/*Added for safari grid orientattion problem in bootstrap v4.0*/
+.row:before, .row:after {display: none !important;}

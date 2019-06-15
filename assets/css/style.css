@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'AvenirNext';
+    src: url('/fonts/avenir/AvenirNextLTPro-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+.bg-blue{
+    background: #212EB3;
+}
+.navbar {
+    padding: 2.8125rem 3.4375rem;
+    border-radius:0px;
+    box-shadow: none;
+    margin-bottom:0px;
+    padding-bottom: 5rem;
+    text-align:right; 
+    font-family: 'AvenirNext', sans-serif;
+}
+.navbar .logo-text {
+    font-family: AvenirNext;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+    color: #fff;
+    display: block;
+    text-align: right;
+}
+.navbar-nav .nav-link {
+    font-family: AvenirNext;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 10px;
+    color: #fff !important;
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+}
+.navbar-nav{
+    margin-left: auto;
+}
+.nav-try-btn{
+    float: right;
+    width: 124px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #00D4B8;
+}
+.navbar-toggler {
+    float: right;
+    margin-left: auto;
+}
+.navbar-light .navbar-toggler-icon {
+    /*        background-color: #fff;*/
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    background-size: 40px;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar-nav .nav-link {
+        text-align: left;
+    }
+    .navbar-collapse {
+        background-color: #FF553D;
+        position: absolute;
+        top: 100px;
+        right: 3.4375rem;
+        z-index: 1;
+    }
+    .nav-try-btn{
+        float: right;
+        width: 124px;
+        border-radius: 5px;
+        background-color: transparent;
+    }
+} 
+
