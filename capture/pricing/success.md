@@ -1,5 +1,4 @@
 ---
-category: pricing
 title: pricing
 ---
 <link href="/assets/css/pricing-result.css" rel="stylesheet" type="text/css" />
