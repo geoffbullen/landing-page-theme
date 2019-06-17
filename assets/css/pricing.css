@@ -209,6 +209,10 @@ hr{
     color:rgb(234 ,114 ,242);
     text-decoration: none;
 }
+.ContactBtn , a:visited {
+    color:rgb(234 ,114 ,242);
+    text-decoration: none;
+  }
 .banner-after-bg {
     width: 100%;
 }

@@ -102,7 +102,7 @@ title: pricing
                     <h3>Get in touch to discuss how we can help connect your team.</h3>
                 </div>
                 <div class="col-md-12">
-                    <button type="button" class="ContactBtn"><a class="contact-team-btn" href="mailto:magic@wallsync.net">Contact Us</a></button>
+                    <button type="button" class="ContactBtn" onclick="window.location.href='mailto:magic@wallsync.net'">Contact Us</button>
                 </div>
             </div>
         </div>
@@ -117,7 +117,7 @@ title: pricing
             <h2>Start a free 14 day trial with access to all features.</h2>
         </div>
         <div class="col-md-12">
-            <button type="button" class="TrialBtn">Start free trial</button>
+            <button type="button" class="TrialBtn" onclick="window.location.href='/index.html'" >Start free trial</button>
         </div>
     </div>
 </section>
