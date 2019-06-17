@@ -48,6 +48,7 @@ title: pricing
                 </div>
                 <div class="col-12 col-md-12 col-lg-12" >
                     <button type="button" class="buyBtn" id="liteBuyBtn">Buy</button>
+                    <button type="button" class="buyBtn" id="liteBuyBtn2" style="display:none">Buy</button>
                 </div>
             </div>
         </div>
@@ -79,6 +80,7 @@ title: pricing
                 </div>
                 <div class="col-12 col-md-12 col-lg-12" >
                     <button type="button" class="buyBtn-card2" id="proBuyBtn">Buy</button>
+                    <button type="button" class="buyBtn-card2" id="proBuyBtn2"  style="display:none">Buy</button>
                 </div>
             </div>
         </div>
@@ -125,12 +127,7 @@ title: pricing
     window.onload = function() {
        document.getElementById("annualbtn").classList.remove("annualBtn-inactive");
        document.getElementById("monthbtn").classList.add("monthBtn-inactive"); 
-       probuy.addEventListener('click', function () {
-           CallStripe(probuyannual);
-        });
-       litebuy.addEventListener('click', function(){
-            CallStripe(litebuyannual);
-        }); 
+       annualPrice()
     }
     //test key
     //var stripe = Stripe('pk_test_eBAjT4DvCokUwfzvtuKTzWQw00M2bwrQPC');
@@ -139,25 +136,35 @@ title: pricing
     var pricepro=document.getElementById("price2");
     var probuy=document.getElementById("proBuyBtn");
     var litebuy=document.getElementById("liteBuyBtn");
+    var litebuy2=document.getElementById("liteBuyBtn2");
+    var probuy2=document.getElementById("proBuyBtn2");
     var probuyannual="plan_FG0r5zPJohwZKY";
-    var probuymonthly="plan_FG0r4oSpDrSTlc";
     var litebuyannual = "plan_FG0tJWuvSl7lXp";
+    var probuymonthly="plan_FG0r4oSpDrSTlc";
     var litebuymonthly="plan_FG0sSWeImScIco";
     function monthlyPrice(){
        document.getElementById("annualbtn").classList.add("annualBtn-inactive");
        document.getElementById("monthbtn").classList.remove("monthBtn-inactive");
+       probuy2.style.display = "block";
+       probuy.style.display = "none";
+       litebuy2.style.display = "block";
+       litebuy.style.display = "none";
        pricelite.innerHTML = "$10";
        pricepro.innerHTML= "$20";
-       probuy.addEventListener('click', function () {
+       probuy2.addEventListener('click', function () {
            CallStripe(probuymonthly);
            });
-        litebuy.addEventListener('click', function () {
+       litebuy2.addEventListener('click', function () {
             CallStripe(litebuymonthly);
         });
     }
     function annualPrice(){
        document.getElementById("annualbtn").classList.remove("annualBtn-inactive");
-       document.getElementById("monthbtn").classList.add("monthBtn-inactive"); 
+       document.getElementById("monthbtn").classList.add("monthBtn-inactive");  
+       probuy2.style.display = "none";
+       probuy.style.display = "block";
+       litebuy2.style.display = "none";
+       litebuy.style.display = "block";
        pricelite.innerHTML = "$6";
        pricepro.innerHTML= "$14"; 
        probuy.addEventListener('click', function () {
