@@ -1,0 +1,16 @@
+<head>
+    <script src="../js/jquery.min.js"></script>
+    <script>
+        console.log("hello")
+        $(document).ready(function() {
+            $('#proBuyBtn').click(function(){
+                console.log('clicked');
+                var data = $.parseJSON($(this).attr('data-button'));
+                alert(JSON.stringify(data.lite));
+            });
+        });
+    </script>
+</head>
+<body>
+    <button type="button" class="buyBtn-card2" id="proBuyBtn" data-button='{"lite": "xxxxx","pro":"yyyy"}'>Buy</button>
+</body>
