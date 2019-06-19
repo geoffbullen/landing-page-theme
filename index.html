@@ -425,8 +425,11 @@
                     Email: $('#txt_email').val(), 
                     LeadSource: "capture-app-link-form"
                 });
+                $('#txt_email').val('');
             }
-            //event.preventDefault();
+            event.preventDefault();
+            
+
         });
     </script>
 
