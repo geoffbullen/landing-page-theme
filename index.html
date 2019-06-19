@@ -34,6 +34,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-136935796-1"></script>
     <script type="text/javascript">(function(o){var b="https://rapidzebra.io/anywhere/",t="9a8d148496b94bb29e9034014c084322876db60823ae4939a7d4f475c83929a7",a=window.AutopilotAnywhere={_runQueue:[],run:function(){this._runQueue.push(arguments);}},c=encodeURIComponent,s="SCRIPT",d=document,l=d.getElementsByTagName(s)[0],p="t="+c(d.title||"")+"&u="+c(d.location.href||"")+"&r="+c(d.referrer||""),j="text/javascript",z,y;if(!window.Autopilot) window.Autopilot=a;if(o.app) p="devmode=true&"+p;z=function(src,asy){var e=d.createElement(s);e.src=src;e.type=j;e.async=asy;l.parentNode.insertBefore(e,l);};y=function(){z(b+t+'?'+p,true);};if(window.attachEvent){window.attachEvent("onload",y);}else{window.addEventListener("load",y,false);}})({});</script>
+
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
@@ -353,12 +354,12 @@
                             time-consuming admin.</h4>
                     </div>
 
-                    <form class="app-download-form">
+                    <form id="capture-app-download-form" class="app-download-form">
 
 
                         <h2>Get emailed a link</h2>
                         <div class="form-group">
-                            <input type="email" class="form-control" placeholder="Email">
+                            <input id="txt_email" type="email" class="form-control" placeholder="Email">
                             <button type="submit" class="btn-submit">Send</button>
                         </div>
                         <p>or</p>
@@ -374,9 +375,6 @@
                             class="google-store-icon"><img src="images/google-play-badge.png" class="img-fluid"></a>
 
                     </form>
-
-
-
                 </div>
             </div>
 
@@ -418,6 +416,19 @@
 
     <!-- custom -->
     <script type="text/javascript" src="js/custom.js"></script>
+    <!-- Form submit -- autopilot -->
+    <script type="text/javascript">
+        $("#capture-app-download-form").submit(function(event) {
+            console.log("hello",$('#txt_email').val());
+            if($('#txt_email').val()){
+                Autopilot.run("associate", {
+                    Email: $('#txt_email').val(), 
+                    LeadSource: "capture-app-link-form"
+                });
+            }
+            event.preventDefault();
+        });
+    </script>
 
 </body>
 
