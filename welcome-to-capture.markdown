@@ -8,4 +8,4 @@ description: |
 Thanks for signing up...
 --------------------
 
-You are our new favourite user
+Hi there, you are our new favourite user
