@@ -177,8 +177,8 @@ title: pricing
     function CallStripe(var1){
         stripe.redirectToCheckout({
         items: [{plan: var1, quantity: 1}],
-        successUrl: 'https://www.wallsync.net/success',
-        cancelUrl: 'https://www.wallsync.net/canceled',
+        successUrl: 'https://www.wallsync.net/capture/pricing/success',
+        cancelUrl: 'https://www.wallsync.net/capture/pricing/cancelled',
         })
         .then(function (result) {
         if (result.error) {
