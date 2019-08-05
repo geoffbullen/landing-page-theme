@@ -234,26 +234,27 @@ hr{
 }
 /*FOOTER*/
 footer {
-    margin-top: 5%;
     border-radius: 2px;
     background-color: #1e273c;
     position: relative;
-    padding: 4.6875rem 0;
-    text-align: center;
+    padding: 6.6875rem 0;
+    margin-top: 5%;
+}
+
+.footer-logo {
+    margin-bottom: 1.5rem;
 }
 
 footer p, footer a {
     font-family: AvenirNext;
-    font-size: 16px;
+    font-size: 1.15rem;
     font-weight: normal;
     line-height: normal;
     color: #fff;
 }
-.footer-text{
-    padding: 10px;
-}
-.footer-logo{
-    margin-bottom: 5%;
+
+footer .email-text strong {
+    font-weight: 600;
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -334,6 +335,17 @@ footer p, footer a {
     .TrialBtn {
         margin-top: 10%;
     }
+    footer  {
+        text-align: center;
+    }
+    footer p{
+        margin-top: 5%;
+    }
+    footer .email-text {
+        display: inline-block;
+        margin-bottom: 1.5rem;
+        margin-top: 5%;
+    }
 } 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -353,6 +365,7 @@ footer p, footer a {
     .TrialBtn {
         margin-top: 5%;
     }
+
 } 
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -385,6 +398,7 @@ footer p, footer a {
     .ContactBtn {
         width: 140px;
     }
+    
 } 
 
 /* Large devices (laptops/desktops, 992px and up) */

@@ -457,9 +457,7 @@ footer p, footer a {
     color: #fff;
 }
 
-footer .email-text {
-    font-size: 1.125rem;
-}
+
 
 footer .email-text strong {
     font-weight: 600;
@@ -567,6 +565,10 @@ footer .email-text strong {
     .app-download-form .form-control {
         max-width: 240px;
     }
+    footer .email-text {
+        margin-top: 0%;
+        font-size: .75rem;
+    }
 }
 
 @media (max-width: 575px) {
@@ -645,6 +647,7 @@ footer .email-text strong {
     footer .email-text {
         display: inline-block;
         margin-bottom: 1.5rem;
+        margin-top: 5%;
     }
 }
 
