@@ -9,11 +9,53 @@ description: |
 Technical Lead
 ====================
 
-### What we’re building
+- Salary ($60-80K) + equity
+- Work with cutting edge tech
+- Help shape product and company
 
-The future relies on communities and teams to collaborate more and more effectively.   WallSync has developed unique technology to help.
+### Who we are?
+We create low friction experiences using smart (and fun) technology like Computer Vision, Augmented Reality and Machine Learning to save our users a tonne of time.
 
-WallSync bridges the gab between physical face-to-face workshops and your digital tools.  We use smart (and fun) technology like Computer Vision, Augmented Reality and Machine Learning to build low friction experience between physical face to face workshops and your digital tools.
+People at organisations like Uber, Atlassian, Deloitte, Renault and Woolworths use our app to move seamlessly from physical notes to digital tools.
+
+Our user base has tripled in the past 3 months and we were recently backed by a leading startup accelerator and received investment from Telstra
+
+
+### About the team
+You’ll be joining a small dedicated team and play a critical role in delivering our big product vision.
+
+You’ll work directly alongside the founder who is an experienced techie and entrepreneur who successfully exited his last venture. 
+
+
+### What we are looking for
+
+A smart problem solver who welcomes the pace, unstructured environment and opportunities of an early-stage startup.
+
+As a guide you will likely have 3-7+ years of hands on development experience.
+
+You don't need to have experience in all of our technologies. You will, however, need to have good fundamental development practices and be very strong in Javascript. 
+
+Ideally you can quickly pickup new technologies, deliver best practice user experiences and have the ability / willingness to motivate and grow a team of techies.
+
+### Skills required
+
+Our core tech stack is Javascript (Node.js, Angular and Nativescript). We also use OpenCV (computer vision) and TensorFlow (machine learning).
+
+#### Must have:
+- Strong Javascript, including Node JS
+- Strong in one or more of AngularJS, React or Vue
+- HTML/ CSS
+- Unit and integration testing experience
+- Write clean, well structured, documented code
+
+#### Nice to have:
+- Mobile development experience (we use Nativescript and Angular) but native app (iOS or Android) would be great too
+- Experience managing and scaling cloud environments
+- Computer Vision (opencv)
+- Machine Learning (tensorflow)
+
+
+This isn’t your typical job.  You’ll have real influence over the development of a great product and company.  You’ll also get exposure to a wide range of technologies and areas of product development.  Be there at the beginning of an amazing journey!
 
 ### How to learn more about what we do
 
@@ -21,37 +63,6 @@ WallSync bridges the gab between physical face-to-face workshops and your digita
 - Download from iTunes or Google Play
 - Go to our [website](https://www.wallsync.net)
 - Watch us [pitch](https://www.youtube.com/watch?v=Z7PzP1HppiM) 
-
-### Where we're at
-
-WallSync is a startup that has just received funding from a leading Australian startup accelerator and investment fund.  We are now building the team to make the most of this opportunity.
-
-### What we're looking for
-
-We don't need you to have experience of all the technologies we use, you can learn those.  We do need someone with strong problem solving skills and good fundamental development practices.
-
-- Someone that is comfortable picking up new technologies fast
-- Someone that can motivate and grow a team of techies
-- Someone that cares about delivering a great user experience.  Simplicity over features.
-- Someone that welcomes the unstructured environment and opportunities of an early stage startup
-
-### Skills Required
-
-- Strong JS/HTML/CSS
-- Node JS
-- We use Angular.   But we'd expect you to be strong in one or more of AngularJS, React or Vue
-- Unit and integration testing experience
-- Writing clean, well structured, documented code
-- Some mobile development experience (we use nativescript and Angular)
-
-###  Nice to haves
-
-- Experience managing and scaling cloud environments
-- Computer Vision (opencv)
-- Machine Learning (tensorflow)
-- Nativescript
-
-This isn’t your typical job.  Have real influence over the development of a great product and company.  Get exposure to a wide range of technologies and areas of product development.  Be there at the beginning of an amazing journey!
 
 ### Ready to Apply?
 
