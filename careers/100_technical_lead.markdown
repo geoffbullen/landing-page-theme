@@ -66,6 +66,6 @@ This isn’t your typical job.  You’ll have real influence over the developmen
 
 ### Ready to Apply?
 
-[Complete this form](https://docs.google.com/forms/d/1fghhdVDLMWTXp8fb8SlRoZUpbLa4zrqzMWuDNG0-73E) 
+[Apply via AngelList](https://angel.co/company/wallsync/jobs/620509-tech-lead) 
 
 Any questions?  Please email jobs@wallsync.net
