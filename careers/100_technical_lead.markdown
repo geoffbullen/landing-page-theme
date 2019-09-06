@@ -59,7 +59,7 @@ This isn’t your typical job.  You’ll have real influence over the developmen
 
 ### How to learn more about what we do
 
-- Have a look at [our demo](https://www.wallsync.net/capture_demo), 
+- Have a look at [our demo](https://www.wallsync.net/capture_video), 
 - Download from iTunes or Google Play
 - Go to our [website](https://www.wallsync.net)
 - Watch us [pitch](https://www.youtube.com/watch?v=Z7PzP1HppiM) 
