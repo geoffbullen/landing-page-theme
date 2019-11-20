@@ -5,7 +5,7 @@ title: WallSync Capture App Documentation and FAQs
 ---
 
 
-## WallSync Capture Documentation {#content}
+## WallSync Capture Documentation
 
 ---
 
