@@ -23,6 +23,7 @@
     color: #fff;
     display: block;
     text-align: right;
+    margin-top: -20% ;
 }
 .navbar-nav .nav-link {
     font-family: AvenirNext;
