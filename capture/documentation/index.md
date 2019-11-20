@@ -5,11 +5,11 @@ title: WallSync Capture App Documentation and FAQs
 ---
 
 
-## WallSync Capture Documentation
+## WallSync Capture Documentation {#content}
 
 ---
 
-### Contents
+### Contents {#content}
 - [About](#about)
 - [Create account](#create-account)
 - [Verify email](#verify-email)
