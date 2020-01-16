@@ -47,9 +47,6 @@ You can download the app via the links below:
 
 ---
 
-
-
-
 ### Creating your account {#create-account}
 
 To get started, you will first need to create your WallSync account.
