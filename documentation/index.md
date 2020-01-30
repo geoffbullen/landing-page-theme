@@ -12,30 +12,28 @@ title: WallSync Capture App Documentation and FAQs
 
 ## WallSync Capture Documentation
 
----
 
-### Contents {#content}
-<!-- - [About](#about)
-- [Create account](#create-account)
-- [Verify email](#verify-email)
-- [Capture mode](#capture-mode)
-  - [Capturing sticky notes](#capture-mode-sticky-notes)
-  - [Capturing whiteboard/ notebook notes](#capture-mode-handrwritten-notes)
-- [How to capture images](#image-capture)
-  - [Columns](#image-capture-columns)
-  - [Groups](#image-capture-groups)
-  - [Lists](#image-capture-lists)
-  - [Text Boxes](#image-capture-boxes)
-- [Organise and edit](#organise)
-- [Settings](#settings)
-- [Export](#export)
-- [FAQs](#faqs)
-- [Contact us](#contact)
-- [Feedback](#feedback) -->
+- [WallSync Capture Documentation](#wallsync-capture-documentation)
+  - [About](#about)
+- [The Capture flow](#the-capture-flow)
+    - [Tips for taking photos](#tips-for-taking-photos)
+- [Capture steps](#capture-steps)
+  - [Take your photo and name the group](#take-your-photo-and-name-the-group)
+  - [Review and make changes](#review-and-make-changes)
+- [The Canvas - where organisation happens](#the-canvas---where-organisation-happens)
+- [Using the canvas to organise notes {#canvas}](#using-the-canvas-to-organise-notes-canvas)
+  - [Long-press to rearrange a note](#long-press-to-rearrange-a-note)
+  - [Double-tap to edit a note](#double-tap-to-edit-a-note)
+  - [Browse, search and edit notes](#browse-search-and-edit-notes)
+  - [Split by column](#split-by-column)
+  - [Rename a group](#rename-a-group)
+- [Exporting notes](#exporting-notes)
+  - [Export to email](#export-to-email)
+  - [Export a google spreadsheet](#export-a-google-spreadsheet)
+  - [Export to Atlassian Jira](#export-to-atlassian-jira)
+- [The Dashboard](#the-dashboard)
 
----
-
-## About
+### About
 
 The WallSync Capture mobile app allows you to quickly transform handwritten sticky notes, lists and text boxes into your digital tools.
 
@@ -59,12 +57,29 @@ To get the best results, follow these steps:
 - Use dark pens, whiteboard markers or sharpies.
 - Contrast the colour between the wall and the sticky notes or index cards (i.e. pink sticky notes on a white wall)
 
+
+## Capture steps
+### Take your photo and name the group
+You can either use the embedded camera, or use a saved image from your device library
+
+  **NOTE:** you have to take the photos in portrait.   However, you can select both landscape and portrait images from your devicexs library
+
+<video width="200" class="doc-video"  muted playsinline autoplay preload="none" loop>
+    <source src="videos/help_long_x-ray_video.mp4" type="video/mp4">
+</video>
+
+### Review and make changes
+
+Quickly see the recogniosed text come to life. You can make text changes here or remove unwanted notes.
+
+When it looks good, it gets added to the canvas, where you can continue to add new photos.
+
+<video width="200" class="doc-video"  muted playsinline autoplay preload="none" loop>
+    <source src="videos/help_short_x-ray_video.mp4" type="video/mp4">
+</video>
+
 ## The Canvas - where organisation happens
-![Capture Mode](images/canvas.jpg){:width="80%"}
-
-
-## The Dashboard
-![Capture Mode](images/dashboard.jpg){:width="80%"}
+![Capture Mode](images/canvas.jpg){:width="95%"}
 
 ## Using the canvas to organise notes {#canvas}
 
@@ -89,14 +104,62 @@ In the canvas view, double tapping on a note will open the edit note screen allo
     <source src="videos/help_double_click_to_edit.mp4" type="video/mp4">
 </video>
 
-## Split by column
+### Browse, search and edit notes
 
+You can quickly scroll through the notes, make changes and reorganise them
 
+<video width="200" class="doc-video"  muted playsinline autoplay preload="none" loop>
+    <source src="videos/help_search_note_video.mp4" type="video/mp4">
+</video>
+
+### Split by column
 
 <video width="200" class="doc-video"  muted playsinline autoplay preload="none" loop>
     <source src="videos/help_split.mp4" type="video/mp4">
 </video>
 
+### Rename a group
 
+<video width="200" class="doc-video"  muted playsinline autoplay preload="none" loop>
+    <source src="videos/Help_new_name_video.mp4" type="video/mp4">
+</video>
+
+## Exporting notes
+
+The WallSync canvas allows the notes to be exported to various tools.   
+1. Atlassian Trello
+2. Atlassian Jira
+3. Google sheets
+4. Email
+5. Plus; you can export the text from all the notes to any app that supports it on your device.  Such as Slck, whatsapp, Google Keep or apple notes
+
+### Export to email
+<video width="200" class="doc-video"  muted playsinline autoplay preload="none" loop>
+    <source src="videos/help_export_email_video.mp4" type="video/mp4">
+</video>
+
+### Export a google spreadsheet
+<video width="200" class="doc-video"  muted playsinline autoplay preload="none" loop>
+    <source src="videos/help_export_google_drive_video.mp4" type="video/mp4">
+</video>
+
+### Export to Atlassian Jira
+
+You can select:
+1. The type of item to create.  Such as whether it is an Epic, Story, Task or Bug
+2. Whether attachments should be included in the created item
+   
+<video width="200" class="doc-video"  muted playsinline autoplay preload="none" loop>
+    <source src="videos/help_jira_video.mp4" type="video/mp4">
+</video>
+
+## The Dashboard
+![Capture Mode](images/dashboard.jpg){:width="80%"}
+
+The Wallsync dashboard is where you can 
+1. see a history of your captured
+2. create a new capture session
+3. add to an existing session
+4. delete a session you no longer need
 
 
