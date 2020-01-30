@@ -21,7 +21,7 @@ title: WallSync Capture App Documentation and FAQs
   - [Take your photo and name the group](#take-your-photo-and-name-the-group)
   - [Review and make changes](#review-and-make-changes)
 - [The Canvas - where organisation happens](#the-canvas---where-organisation-happens)
-- [Using the canvas to organise notes {#canvas}](#using-the-canvas-to-organise-notes-canvas)
+- [Using the canvas to organise notes](#using-the-canvas-to-organise-notes)
   - [Long-press to rearrange a note](#long-press-to-rearrange-a-note)
   - [Double-tap to edit a note](#double-tap-to-edit-a-note)
   - [Browse, search and edit notes](#browse-search-and-edit-notes)
@@ -81,7 +81,7 @@ When it looks good, it gets added to the canvas, where you can continue to add n
 ## The Canvas - where organisation happens
 ![Capture Mode](images/canvas.jpg){:width="95%"}
 
-## Using the canvas to organise notes {#canvas}
+## Using the canvas to organise notes
 
 The Wallsync canvas is where you can 
 1. organise your notes into categories
