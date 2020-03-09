@@ -8,11 +8,26 @@ title: WallSync Capture App Documentation and FAQs
         display:block;
         margin-left:15%;
     }
+    .video-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.video-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
 </style>
-
 ## WallSync Capture Documentation
 
-
+<div class="video-responsive">
+<iframe width="710" height="399" src="https://www.youtube.com/embed/McJwZH5fCI0?controls=0&autoplay=1&loop=1&showinfo=0&modestbranding=1&playsinline=01&rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<br />
 - [WallSync Capture Documentation](#wallsync-capture-documentation)
   - [About](#about)
 - [The Capture flow](#the-capture-flow)
