@@ -10,6 +10,10 @@ title: Capture Anything Help and FAQs
   - [About](#about)
 - [The Capture flow](#the-capture-flow)
     - [Tips for taking photos](#tips-for-taking-photos)
+- [Features](#features)
+  - [Magic Tidy](#magic-tidy)
+  - [Change Shapes](#change-shapes)
+  - [Align Object](#align-object)
 
 
 ### About
@@ -26,6 +30,29 @@ To get the best results, follow these steps:
 - Ensure you have good lighting in the room.
 - Use dark pens, whiteboard markers or sharpies.
 - Contrast the colour between the wall and the sticky notes or index cards (i.e. pink sticky notes on a white wall)
+
+### Features
+
+Capture anything provides a wide range of features that will enhance the editing epxperience of diagram, flow charts and all tha other things that you have on you canvas.
+
+#### Magic Tidy
+
+Tidy up your diagram with just one click on your mouse. Have a look at the short video below to see how it works.
+
+#### Change Shapes
+
+You can change the shape type for any item on your canvas. Capture Anything also provides the flexibility to change shapes for a whole group of items. You can change your shape to a variety of options such as text, ellipse, rectangle, sticky note or diamond.
+<br><br>
+To change a shape, right-click on the selected group or single item; and select "change type". Choose the desired shape from the list of shape available. Have a look at the short video below to see how it works. 
+
+#### Align Object
+
+
+
+
+
+
+
 
 
 
