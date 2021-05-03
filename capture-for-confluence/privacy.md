@@ -1,7 +1,7 @@
 ---
 layout: single-page-no-header
 category: Security
-title: Privacy and Securityy - Capture Anything for Confluence
+title: Privacy and Security - Capture Anything for Confluence
 description: |
 ---
 
